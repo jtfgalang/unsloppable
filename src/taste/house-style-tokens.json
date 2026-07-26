@@ -1,0 +1,4252 @@
+{
+  "aera": {
+    "name": "Aera",
+    "slug": "aera",
+    "category": "Glass & Aura",
+    "vibe": [
+      "Frosted glass",
+      "transparent",
+      "blurred background",
+      "layered",
+      "vibrant background",
+      "light source",
+      "depth",
+      "multi-layer"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#0080FF",
+        "#8B00FF",
+        "#FF1493",
+        "#20B2AA"
+      ],
+      "primary_raw": "Translucent white: rgba(255,255,255,0.1-0.3)",
+      "secondary_raw": "Vibrant: Electric Blue #0080FF, Neon Purple #8B00FF, Vivid Pink #FF1493, Teal #20B2AA"
+    },
+    "motion": {
+      "effects": "Backdrop blur (10-20px), subtle border (1px solid rgba white 0.2), light reflection, Z-depth"
+    },
+    "bestFor": [
+      "Modern SaaS",
+      "financial dashboards",
+      "high-end corporate",
+      "lifestyle apps",
+      "modal overlays",
+      "navigation"
+    ],
+    "avoidFor": [
+      "Low-contrast backgrounds",
+      "critical accessibility",
+      "performance-limited",
+      "dark text on dark"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚠ Good",
+      "accessibility": "⚠ Ensure 4.5:1",
+      "mobile": "✓ Good",
+      "complexity": "Medium"
+    },
+    "cssKeywords": "backdrop-filter: blur(15px), background: rgba(255, 255, 255, 0.15), border: 1px solid rgba(255,255,255,0.2), -webkit-backdrop-filter: blur(15px), z-index layering for depth",
+    "designVars": {
+      "--blur-amount": "15px",
+      "--glass-opacity": "0.15",
+      "--border-color": "rgba(255,255,255,0.2)",
+      "--background": "vibrant color",
+      "--text-color": "light/dark based on BG"
+    },
+    "checklist": [
+      "Backdrop-filter blur 10-20px",
+      "Translucent white 15-30% opacity",
+      "Subtle border 1px light",
+      "Vibrant background verified",
+      "Text contrast 4.5:1 checked",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Aera' house style. Design a glassmorphic interface with frosted glass effect. Use backdrop blur (10-20px), translucent overlays (rgba 10-30% opacity), vibrant background colors, subtle borders, light source reflection, layered depth. Perfect for modern overlays and cards.",
+    "provenance": {
+      "sourceStyle": "Glassmorphism",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Tranquil",
+    "colorScheme": {
+      "id": "moonlight",
+      "name": "Moonlight",
+      "mode": "dark"
+    },
+    "roles": {
+      "bg": "#101219",
+      "surface": "#1C202C",
+      "text": "#E1E3EA",
+      "muted": "#8991A9",
+      "accent": "#699ED3",
+      "onAccent": "#000000",
+      "border": "#5C6990"
+    },
+    "contrast": {
+      "text/bg": 14.59,
+      "text/surface": 12.67,
+      "muted/bg": 5.96,
+      "muted/surface": 5.17,
+      "accent/bg": 6.62,
+      "accent/surface": 5.75,
+      "onAccent/accent": 7.43,
+      "border/bg": 3.45,
+      "border/surface": 3
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "atlas-neue": {
+    "name": "Atlas Neue",
+    "slug": "atlas-neue",
+    "category": "Quiet Foundations",
+    "vibe": [
+      "Grid system",
+      "Helvetica",
+      "modular",
+      "asymmetric",
+      "international style",
+      "rational",
+      "clean",
+      "mathematical spacing"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#000000",
+        "#FFFFFF",
+        "#F5F5F5"
+      ],
+      "primary_raw": "#000000, #FFFFFF, #F5F5F5, single vibrant accent only",
+      "secondary_raw": "Minimal secondary, accent for emphasis only, no gradients"
+    },
+    "motion": {
+      "effects": "display: grid, grid-template-columns: repeat(12 1fr), gap: 1rem, mathematical ratios, clear hierarchy"
+    },
+    "bestFor": [
+      "Corporate sites",
+      "architecture",
+      "editorial",
+      "SaaS",
+      "museums",
+      "professional services",
+      "documentation"
+    ],
+    "avoidFor": [
+      "Playful brands",
+      "children's sites",
+      "entertainment",
+      "gaming",
+      "emotional storytelling"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚡ Excellent",
+      "accessibility": "✓ WCAG AAA",
+      "mobile": "✓ High",
+      "complexity": "Low"
+    },
+    "cssKeywords": "display: grid, grid-template-columns: repeat(12, 1fr), gap: 1rem (8px base unit), font-family: Inter/Helvetica, font-weight: 400-700, color: #000/#FFF, single accent",
+    "designVars": {
+      "--grid-columns": "12",
+      "--grid-gap": "1rem",
+      "--base-unit": "8px",
+      "--font-primary": "Inter",
+      "--color-text": "#000000",
+      "--color-bg": "#FFFFFF",
+      "--accent": "single vibrant"
+    },
+    "checklist": [
+      "12-column grid strict",
+      "Spacing mathematical",
+      "Typography hierarchy clear",
+      "Single accent only",
+      "No decorations",
+      "High contrast verified",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Atlas Neue' house style. Design with Swiss Modernism 2.0. Use: strict grid system (12 columns), Helvetica/Inter fonts, mathematical spacing, asymmetric balance, high contrast, minimal decoration, clean hierarchy, single accent color.",
+    "provenance": {
+      "sourceStyle": "Swiss Modernism 2.0",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Neutral",
+    "colorScheme": {
+      "id": "gothic-noir",
+      "name": "Gothic Noir",
+      "mode": "dark"
+    },
+    "roles": {
+      "bg": "#141414",
+      "surface": "#242424",
+      "text": "#E6E6E6",
+      "muted": "#999999",
+      "accent": "#9E9E9E",
+      "onAccent": "#000000",
+      "border": "#6D6D6D"
+    },
+    "contrast": {
+      "text/bg": 14.76,
+      "text/surface": 12.44,
+      "muted/bg": 6.47,
+      "muted/surface": 5.45,
+      "accent/bg": 6.88,
+      "accent/surface": 5.79,
+      "onAccent/accent": 7.84,
+      "border/bg": 3.56,
+      "border/surface": 3
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "atlas": {
+    "name": "Atlas",
+    "slug": "atlas",
+    "category": "Quiet Foundations",
+    "vibe": [
+      "Clean",
+      "simple",
+      "spacious",
+      "functional",
+      "white space",
+      "high contrast",
+      "geometric",
+      "sans-serif"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#000000",
+        "#FFFFFF",
+        "#F5F1E8",
+        "#808080",
+        "#B38B6D"
+      ],
+      "primary_raw": "Monochromatic, Black #000000, White #FFFFFF",
+      "secondary_raw": "Neutral (Beige #F5F1E8, Grey #808080, Taupe #B38B6D), Primary accent"
+    },
+    "motion": {
+      "effects": "Subtle hover (200-250ms), smooth transitions, sharp shadows if any, clear type hierarchy, fast loading"
+    },
+    "bestFor": [
+      "Enterprise apps",
+      "dashboards",
+      "documentation sites",
+      "SaaS platforms",
+      "professional tools"
+    ],
+    "avoidFor": [
+      "Creative portfolios",
+      "entertainment",
+      "playful brands",
+      "artistic experiments"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚡ Excellent",
+      "accessibility": "✓ WCAG AAA",
+      "mobile": "✓ High",
+      "complexity": "Low"
+    },
+    "cssKeywords": "display: grid, gap: 2rem, font-family: sans-serif, color: #000 or #FFF, max-width: 1200px, clean borders, no box-shadow unless necessary",
+    "designVars": {
+      "--spacing": "2rem",
+      "--border-radius": "0px",
+      "--font-weight": "400-700",
+      "--shadow": "none",
+      "--accent-color": "single primary only"
+    },
+    "checklist": [
+      "Grid-based layout 12-16 columns",
+      "Typography hierarchy clear",
+      "No unnecessary decorations",
+      "WCAG AAA contrast verified",
+      "Mobile responsive grid",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Atlas' house style. Design a minimalist landing page. Use: white space, geometric layouts, sans-serif fonts, high contrast, grid-based structure, essential elements only. Avoid shadows and gradients. Focus on clarity and functionality.",
+    "provenance": {
+      "sourceStyle": "Minimalism & Swiss Style",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Monochromatic",
+    "colorScheme": {
+      "id": "slate-column",
+      "name": "Slate Column",
+      "mode": "light"
+    },
+    "roles": {
+      "bg": "#F6F7F8",
+      "surface": "#E8EAEE",
+      "text": "#2B323B",
+      "muted": "#5D6B7E",
+      "accent": "#356BB6",
+      "onAccent": "#FFFFFF",
+      "border": "#79879C"
+    },
+    "contrast": {
+      "text/bg": 12.07,
+      "text/surface": 10.75,
+      "muted/bg": 5.06,
+      "muted/surface": 4.51,
+      "accent/bg": 4.98,
+      "accent/surface": 4.44,
+      "onAccent/accent": 5.34,
+      "border/bg": 3.4,
+      "border/surface": 3.03
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "blockparty": {
+    "name": "Blockparty",
+    "slug": "blockparty",
+    "category": "Bold & Raw",
+    "vibe": [
+      "Bold",
+      "energetic",
+      "playful",
+      "block layout",
+      "geometric shapes",
+      "high color contrast",
+      "duotone",
+      "modern"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#39FF14",
+        "#BF00FF",
+        "#FF1493",
+        "#00FFFF",
+        "#FFAA00",
+        "#FF7F00",
+        "#FF006E",
+        "#CCFF00"
+      ],
+      "primary_raw": "Neon Green #39FF14, Electric Purple #BF00FF, Vivid Pink #FF1493, Bright Cyan #00FFFF, Sunburst #FFAA00",
+      "secondary_raw": "Complementary: Orange #FF7F00, Shocking Pink #FF006E, Lime #CCFF00, triadic schemes"
+    },
+    "motion": {
+      "effects": "Large sections (48px+ gaps), animated patterns, bold hover (color shift), scroll-snap, large type (32px+), 200-300ms"
+    },
+    "bestFor": [
+      "Startups",
+      "creative agencies",
+      "gaming",
+      "social media",
+      "youth-focused",
+      "entertainment",
+      "consumer"
+    ],
+    "avoidFor": [
+      "Financial institutions",
+      "healthcare",
+      "formal business",
+      "government",
+      "conservative",
+      "elderly"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚡ Good",
+      "accessibility": "◐ Ensure WCAG",
+      "mobile": "✓ High",
+      "complexity": "Medium"
+    },
+    "cssKeywords": "display: flex/grid with large gaps (48px+), font-size: 32px+, background: animated patterns (CSS), color: neon/vibrant colors, animation: continuous pattern movement",
+    "designVars": {
+      "--block-gap": "48px",
+      "--typography-size": "32px+",
+      "--color-palette": "4-6 vibrant colors",
+      "--animation": "continuous pattern",
+      "--contrast-ratio": "7:1+"
+    },
+    "checklist": [
+      "Block layout with 48px+ gaps",
+      "Large typography 32px+",
+      "4-6 vibrant colors max",
+      "Animated patterns active",
+      "Scroll-snap enabled",
+      "High contrast verified (7:1+)",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Blockparty' house style. Design an energetic, vibrant interface with bold block layouts, geometric shapes, high color contrast, large typography (32px+), animated background patterns, duotone effects. Perfect for startups and youth-focused apps. Use 4-6 contrasting colors from complementary/triadic schemes.",
+    "provenance": {
+      "sourceStyle": "Vibrant & Block-based",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Playful",
+    "colorScheme": {
+      "id": "kiwi-pop",
+      "name": "Kiwi Pop",
+      "mode": "light"
+    },
+    "roles": {
+      "bg": "#F7FAF5",
+      "surface": "#EBF1E4",
+      "text": "#334026",
+      "muted": "#5F724C",
+      "accent": "#2D9E17",
+      "onAccent": "#000000",
+      "border": "#759358"
+    },
+    "contrast": {
+      "text/bg": 10.49,
+      "text/surface": 9.59,
+      "muted/bg": 4.99,
+      "muted/surface": 4.56,
+      "accent/bg": 3.32,
+      "accent/surface": 3.03,
+      "onAccent/accent": 6.01,
+      "border/bg": 3.29,
+      "border/surface": 3
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "bloom": {
+    "name": "Bloom",
+    "slug": "bloom",
+    "category": "Organic & Analog",
+    "vibe": [
+      "Nature-inspired",
+      "cellular",
+      "fluid",
+      "breathing",
+      "generative",
+      "algorithms",
+      "life-like"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#FF9999",
+        "#00FF41",
+        "#001E3C",
+        "#FF7F50"
+      ],
+      "primary_raw": "Cellular Pink #FF9999, Chlorophyll Green #00FF41, Bioluminescent Blue",
+      "secondary_raw": "Deep Ocean #001E3C, Coral #FF7F50, Organic gradients"
+    },
+    "motion": {
+      "effects": "Breathing animations, fluid morphing, generative growth, physics-based movement"
+    },
+    "bestFor": [
+      "Sustainability tech",
+      "biotech",
+      "advanced health",
+      "meditation",
+      "generative art platforms"
+    ],
+    "avoidFor": [
+      "Standard SaaS",
+      "data grids",
+      "strict corporate",
+      "accounting"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚠ Moderate",
+      "accessibility": "✓ Good",
+      "mobile": "✓ Good",
+      "complexity": "High"
+    },
+    "cssKeywords": "SVG morphing (SMIL or GSAP), canvas for generative, animation: breathing (scale pulse), filter: blur for organic, clip-path for cellular, WebGL for advanced, physics libraries",
+    "designVars": {
+      "--cellular-pink": "#FF9999",
+      "--chlorophyll": "#00FF41",
+      "--bioluminescent": "#00FFFF",
+      "--breathing-duration": "4s",
+      "--morph-ease": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "--organic-blur": "20px"
+    },
+    "checklist": [
+      "Organic shapes present",
+      "Animations feel alive",
+      "Generative elements",
+      "Performance monitored",
+      "Mobile fallback",
+      "Accessibility alt content",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Bloom' house style. Design a biomimetic organic interface. Use: cellular/fluid shapes, breathing animations, generative patterns, bioluminescent colors, physics-based movement, nature algorithms, life-like elements, flowing gradients.",
+    "provenance": {
+      "sourceStyle": "Biomimetic / Organic 2.0",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Seasonal",
+    "colorScheme": {
+      "id": "island-oasis",
+      "name": "Island Oasis",
+      "mode": "light"
+    },
+    "roles": {
+      "bg": "#F5F9F9",
+      "surface": "#E5F0EF",
+      "text": "#26403E",
+      "muted": "#4D7370",
+      "accent": "#279A7D",
+      "onAccent": "#000000",
+      "border": "#58938F"
+    },
+    "contrast": {
+      "text/bg": 10.5,
+      "text/surface": 9.57,
+      "muted/bg": 4.95,
+      "muted/surface": 4.51,
+      "accent/bg": 3.3,
+      "accent/surface": 3,
+      "onAccent/accent": 6,
+      "border/bg": 3.31,
+      "border/surface": 3.01
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "borealis": {
+    "name": "Borealis",
+    "slug": "borealis",
+    "category": "Glass & Aura",
+    "vibe": [
+      "Vibrant gradients",
+      "smooth blend",
+      "Northern Lights effect",
+      "mesh gradient",
+      "luminous",
+      "atmospheric",
+      "abstract"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#0080FF",
+        "#FF1493",
+        "#00FFFF"
+      ],
+      "primary_raw": "Complementary: Blue-Orange, Purple-Yellow, Electric Blue #0080FF, Magenta #FF1493, Cyan #00FFFF",
+      "secondary_raw": "Smooth transitions (Blue→Purple→Pink→Teal), iridescent effects, blend modes (screen, multiply)"
+    },
+    "motion": {
+      "effects": "Large flowing CSS/SVG gradients, subtle 8-12s animations, depth via color layering, smooth morph"
+    },
+    "bestFor": [
+      "Modern SaaS",
+      "creative agencies",
+      "branding",
+      "music platforms",
+      "lifestyle",
+      "premium products",
+      "hero sections"
+    ],
+    "avoidFor": [
+      "Data-heavy dashboards",
+      "critical accessibility",
+      "content-heavy where distraction issues"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚠ Good",
+      "accessibility": "⚠ Text contrast",
+      "mobile": "✓ Good",
+      "complexity": "Medium"
+    },
+    "cssKeywords": "background: conic-gradient or radial-gradient with multiple stops, animation: @keyframes gradient (8-12s), background-size: 200% 200%, filter: saturate(1.2), blend-mode: screen or multiply",
+    "designVars": {
+      "--gradient-colors": "complementary pairs",
+      "--animation-duration": "8-12s",
+      "--blend-mode": "screen",
+      "--color-saturation": "1.2",
+      "--effect": "iridescent",
+      "--loop-smooth": "true"
+    },
+    "checklist": [
+      "Mesh/flowing gradients applied",
+      "8-12s animation loop",
+      "Complementary colors used",
+      "Smooth color transitions",
+      "Iridescent effect subtle",
+      "Text contrast verified",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Borealis' house style. Create a vibrant gradient interface inspired by Northern Lights with mesh gradients, smooth color blends, flowing animations. Use complementary color pairs (blue-orange, purple-yellow), flowing background gradients, subtle continuous animations (8-12s loops), iridescent effects.",
+    "provenance": {
+      "sourceStyle": "Aurora UI",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Monochromatic",
+    "colorScheme": {
+      "id": "forest-depth",
+      "name": "Forest Depth",
+      "mode": "dark"
+    },
+    "roles": {
+      "bg": "#111814",
+      "surface": "#1D2A24",
+      "text": "#E1EAE6",
+      "muted": "#89A999",
+      "accent": "#69D39E",
+      "onAccent": "#000000",
+      "border": "#537865"
+    },
+    "contrast": {
+      "text/bg": 14.69,
+      "text/surface": 12.15,
+      "muted/bg": 7.04,
+      "muted/surface": 5.82,
+      "accent/bg": 9.8,
+      "accent/surface": 8.1,
+      "onAccent/accent": 11.41,
+      "border/bg": 3.64,
+      "border/surface": 3.01
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "broadsheet": {
+    "name": "Broadsheet",
+    "slug": "broadsheet",
+    "category": "Quiet Foundations",
+    "vibe": [
+      "Magazine layout",
+      "asymmetric grid",
+      "editorial typography",
+      "pull quotes",
+      "drop caps",
+      "column layout",
+      "print-inspired"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "primary_raw": "High contrast: Black #000000, White #FFFFFF, accent brand color",
+      "secondary_raw": "Muted supporting, pull quote highlights, byline colors, section dividers"
+    },
+    "motion": {
+      "effects": "Smooth scroll, reveal on scroll, parallax images, text animations, page-flip transitions"
+    },
+    "bestFor": [
+      "News sites",
+      "blogs",
+      "magazines",
+      "editorial content",
+      "long-form articles",
+      "journalism",
+      "publishing"
+    ],
+    "avoidFor": [
+      "Dashboards",
+      "apps",
+      "e-commerce catalogs",
+      "real-time data",
+      "short-form content"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚡ Excellent",
+      "accessibility": "✓ WCAG AAA",
+      "mobile": "✓ High",
+      "complexity": "Low"
+    },
+    "cssKeywords": "display: grid with named areas, column-count for text, ::first-letter for drop caps, blockquote styling, figure/figcaption, gap variations, font: serif for body, variable widths",
+    "designVars": {
+      "--grid-cols": "asymmetric",
+      "--body-font": "Georgia/Merriweather",
+      "--heading-font": "bold sans",
+      "--drop-cap-size": "4em",
+      "--pull-quote-size": "1.5em",
+      "--column-gap": "2rem"
+    },
+    "checklist": [
+      "Grid asymmetric",
+      "Typography editorial",
+      "Pull quotes styled",
+      "Drop caps present",
+      "Images large/impactful",
+      "Mobile reflows well",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Broadsheet' house style. Design an editorial magazine layout. Use: asymmetric grid, pull quotes, drop caps, multi-column text, large imagery, bylines, section dividers, print-inspired typography, article hierarchy, white space balance.",
+    "provenance": {
+      "sourceStyle": "Editorial Grid / Magazine",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Monochromatic",
+    "colorScheme": {
+      "id": "clay-field",
+      "name": "Clay Field",
+      "mode": "light"
+    },
+    "roles": {
+      "bg": "#F9F7F6",
+      "surface": "#EFE9E6",
+      "text": "#3E2F28",
+      "muted": "#806355",
+      "accent": "#B66035",
+      "onAccent": "#000000",
+      "border": "#A27F6E"
+    },
+    "contrast": {
+      "text/bg": 11.97,
+      "text/surface": 10.64,
+      "muted/bg": 5.13,
+      "muted/surface": 4.56,
+      "accent/bg": 4.17,
+      "accent/surface": 3.71,
+      "onAccent/accent": 4.71,
+      "border/bg": 3.39,
+      "border/surface": 3.01
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "chromeline": {
+    "name": "Chromeline",
+    "slug": "chromeline",
+    "category": "Neon & Night",
+    "vibe": [
+      "Vintage sci-fi",
+      "80s aesthetic",
+      "neon glow",
+      "geometric patterns",
+      "CRT scanlines",
+      "pixel art",
+      "cyberpunk",
+      "synthwave"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#0080FF",
+        "#FF006E",
+        "#00FFFF",
+        "#1A1A2E",
+        "#5D34D0",
+        "#C0C0C0",
+        "#FFD700",
+        "#FF10F0"
+      ],
+      "primary_raw": "Neon Blue #0080FF, Hot Pink #FF006E, Cyan #00FFFF, Deep Black #1A1A2E, Purple #5D34D0",
+      "secondary_raw": "Metallic Silver #C0C0C0, Gold #FFD700, duotone, 80s Pink #FF10F0, neon accents"
+    },
+    "motion": {
+      "effects": "CRT scanlines (::before overlay), neon glow (text-shadow+box-shadow), glitch effects (skew/offset keyframes)"
+    },
+    "bestFor": [
+      "Gaming",
+      "entertainment",
+      "music platforms",
+      "tech brands",
+      "artistic projects",
+      "nostalgic",
+      "cyberpunk"
+    ],
+    "avoidFor": [
+      "Conservative industries",
+      "critical accessibility",
+      "professional/corporate",
+      "elderly",
+      "legal/finance"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Dark focused"
+    },
+    "grades": {
+      "performance": "⚠ Moderate",
+      "accessibility": "⚠ High contrast/strain",
+      "mobile": "◐ Medium",
+      "complexity": "Medium"
+    },
+    "cssKeywords": "color: neon colors (#0080FF, #FF006E, #00FFFF), text-shadow: 0 0 10px neon, background: #000 or #1A1A2E, font-family: monospace, animation: glitch (skew+offset), filter: hue-rotate",
+    "designVars": {
+      "--neon-colors": "#0080FF #FF006E #00FFFF",
+      "--background": "#000000",
+      "--font-family": "monospace",
+      "--effect": "glitch+glow",
+      "--scanline-opacity": "0.3",
+      "--crt-effect": "true"
+    },
+    "checklist": [
+      "Neon colors used",
+      "CRT scanlines effect",
+      "Glitch animations active",
+      "Monospace font",
+      "Deep black background",
+      "Glow effects applied",
+      "80s patterns present",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Chromeline' house style. Build a retro-futuristic (cyberpunk/vaporwave) interface with neon colors (blue, pink, cyan), deep black background, 80s aesthetic, CRT scanlines, glitch effects, neon glow text/borders, monospace fonts, geometric patterns. Use neon text-shadow and animated glitch effects.",
+    "provenance": {
+      "sourceStyle": "Retro-Futurism",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Vibrant",
+    "colorScheme": {
+      "id": "fireworks",
+      "name": "Fireworks",
+      "mode": "dark"
+    },
+    "roles": {
+      "bg": "#191110",
+      "surface": "#2C1E1C",
+      "text": "#EAE2E1",
+      "muted": "#A98E89",
+      "accent": "#FA7F42",
+      "onAccent": "#000000",
+      "border": "#8A6159"
+    },
+    "contrast": {
+      "text/bg": 14.58,
+      "text/surface": 12.57,
+      "muted/bg": 6.13,
+      "muted/surface": 5.28,
+      "accent/bg": 7.24,
+      "accent/surface": 6.25,
+      "onAccent/accent": 8.18,
+      "border/bg": 3.49,
+      "border/surface": 3
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "clay": {
+    "name": "Clay",
+    "slug": "clay",
+    "category": "Soft & Tactile",
+    "vibe": [
+      "Soft 3D",
+      "chunky",
+      "playful",
+      "toy-like",
+      "bubbly",
+      "thick borders (3-4px)",
+      "double shadows",
+      "rounded (16-24px)"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#FDBCB4",
+        "#ADD8E6",
+        "#98FF98",
+        "#E6E6FA"
+      ],
+      "primary_raw": "Pastel: Soft Peach #FDBCB4, Baby Blue #ADD8E6, Mint #98FF98, Lilac #E6E6FA, light BG",
+      "secondary_raw": "Soft gradients (pastel-to-pastel), light/dark variations (20-30%), gradient subtle"
+    },
+    "motion": {
+      "effects": "Inner+outer shadows (subtle, no hard lines), soft press (200ms ease-out), fluffy elements, smooth transitions"
+    },
+    "bestFor": [
+      "Educational apps",
+      "children's apps",
+      "SaaS platforms",
+      "creative tools",
+      "fun-focused",
+      "onboarding",
+      "casual games"
+    ],
+    "avoidFor": [
+      "Formal corporate",
+      "professional services",
+      "data-critical",
+      "serious/medical",
+      "legal apps",
+      "finance"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "◐ Partial"
+    },
+    "grades": {
+      "performance": "⚡ Good",
+      "accessibility": "⚠ Ensure 4.5:1",
+      "mobile": "✓ High",
+      "complexity": "Medium"
+    },
+    "cssKeywords": "border-radius: 16-24px, border: 3-4px solid, box-shadow: inset -2px -2px 8px, 4px 4px 8px, background: pastel-gradient, animation: soft bounce (cubic-bezier 0.34, 1.56)",
+    "designVars": {
+      "--border-radius": "20px",
+      "--border-width": "3-4px",
+      "--shadow-inner": "inset -2px -2px 8px",
+      "--shadow-outer": "4px 4px 8px",
+      "--color-palette": "pastels",
+      "--animation": "bounce"
+    },
+    "checklist": [
+      "Border-radius 16-24px",
+      "Thick borders 3-4px",
+      "Double shadows (inner+outer)",
+      "Pastel colors used",
+      "Soft bounce animations",
+      "Playful interactions",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Clay' house style. Design a playful, toy-like interface with soft 3D, chunky elements, bubbly aesthetic, rounded edges (16-24px), thick borders (3-4px), double shadows (inner + outer), pastel colors, smooth animations. Perfect for children's apps and creative tools.",
+    "provenance": {
+      "sourceStyle": "Claymorphism",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Monochromatic",
+    "colorScheme": {
+      "id": "clay-field",
+      "name": "Clay Field",
+      "mode": "light"
+    },
+    "roles": {
+      "bg": "#F9F7F6",
+      "surface": "#EFE9E6",
+      "text": "#3E2F28",
+      "muted": "#806355",
+      "accent": "#B66035",
+      "onAccent": "#000000",
+      "border": "#A27F6E"
+    },
+    "contrast": {
+      "text/bg": 11.97,
+      "text/surface": 10.64,
+      "muted/bg": 5.13,
+      "muted/surface": 4.56,
+      "accent/bg": 4.17,
+      "accent/surface": 3.71,
+      "onAccent/accent": 4.71,
+      "border/bg": 3.39,
+      "border/surface": 3.01
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "concrete": {
+    "name": "Concrete",
+    "slug": "concrete",
+    "category": "Bold & Raw",
+    "vibe": [
+      "Raw",
+      "unpolished",
+      "stark",
+      "high contrast",
+      "plain text",
+      "default fonts",
+      "visible borders",
+      "asymmetric"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#FF0000",
+        "#0000FF",
+        "#FFFF00",
+        "#000000",
+        "#FFFFFF",
+        "#00FF00",
+        "#FF00FF"
+      ],
+      "primary_raw": "Primary: Red #FF0000, Blue #0000FF, Yellow #FFFF00, Black #000000, White #FFFFFF",
+      "secondary_raw": "Limited: Neon Green #00FF00, Hot Pink #FF00FF, minimal secondary"
+    },
+    "motion": {
+      "effects": "No smooth transitions (instant), sharp corners (0px), bold typography (700+), visible grid, large blocks"
+    },
+    "bestFor": [
+      "Design portfolios",
+      "artistic projects",
+      "counter-culture brands",
+      "editorial/media sites",
+      "tech blogs"
+    ],
+    "avoidFor": [
+      "Corporate environments",
+      "conservative industries",
+      "critical accessibility",
+      "customer-facing professional"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚡ Excellent",
+      "accessibility": "✓ WCAG AAA",
+      "mobile": "◐ Medium",
+      "complexity": "Low"
+    },
+    "cssKeywords": "border-radius: 0px, transition: none or 0s, font-family: system-ui or monospace, font-weight: 700+, border: visible 2-4px, colors: #FF0000, #0000FF, #FFFF00, #000000, #FFFFFF",
+    "designVars": {
+      "--border-radius": "0px",
+      "--transition-duration": "0s",
+      "--font-weight": "700-900",
+      "--colors": "primary only",
+      "--border-style": "visible",
+      "--grid-visible": "true"
+    },
+    "checklist": [
+      "No border-radius (0px)",
+      "No transitions (instant)",
+      "Bold typography (700+)",
+      "Pure primary colors used",
+      "Visible grid/borders",
+      "Asymmetric layout intentional",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Concrete' house style. Create a brutalist design with raw, unpolished, stark aesthetic. Use pure primary colors (red, blue, yellow), black & white, no smooth transitions (instant), sharp corners, bold large typography, visible grid lines, default system fonts, intentional 'broken' design elements.",
+    "provenance": {
+      "sourceStyle": "Brutalism",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Playful",
+    "colorScheme": {
+      "id": "zest",
+      "name": "Zest",
+      "mode": "light"
+    },
+    "roles": {
+      "bg": "#FAF9F5",
+      "surface": "#F1F0E4",
+      "text": "#403E26",
+      "muted": "#716E4B",
+      "accent": "#A68609",
+      "onAccent": "#000000",
+      "border": "#918C57"
+    },
+    "contrast": {
+      "text/bg": 10.3,
+      "text/surface": 9.47,
+      "muted/bg": 4.94,
+      "muted/surface": 4.54,
+      "accent/bg": 3.3,
+      "accent/surface": 3.04,
+      "onAccent/accent": 6.04,
+      "border/bg": 3.27,
+      "border/surface": 3.01
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "cushion": {
+    "name": "Cushion",
+    "slug": "cushion",
+    "category": "Soft & Tactile",
+    "vibe": [
+      "Evolved soft UI",
+      "better contrast",
+      "modern aesthetics",
+      "subtle depth",
+      "accessibility-focused",
+      "improved shadows",
+      "hybrid"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#87CEEB",
+        "#FFB6C1",
+        "#90EE90"
+      ],
+      "primary_raw": "Improved contrast pastels: Soft Blue #87CEEB, Soft Pink #FFB6C1, Soft Green #90EE90, better hierarchy",
+      "secondary_raw": "Better combinations, accessible secondary, supporting with improved contrast, modern accents"
+    },
+    "motion": {
+      "effects": "Improved shadows (softer than flat, clearer than neumorphism), modern (200-300ms), focus visible, WCAG AA/AAA"
+    },
+    "bestFor": [
+      "Modern enterprise apps",
+      "SaaS platforms",
+      "health/wellness",
+      "modern business tools",
+      "professional",
+      "hybrid"
+    ],
+    "avoidFor": [
+      "Extreme minimalism",
+      "critical performance",
+      "systems without modern OS"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚡ Excellent",
+      "accessibility": "✓ WCAG AA+",
+      "mobile": "✓ High",
+      "complexity": "Medium"
+    },
+    "cssKeywords": "box-shadow: softer multi-layer (0 2px 4px), background: improved contrast pastels, border-radius: 8-12px, animation: 200-300ms smooth, outline: 2-3px on focus, contrast: 4.5:1+",
+    "designVars": {
+      "--shadow-soft": "modern blend",
+      "--border-radius": "10px",
+      "--animation-duration": "200-300ms",
+      "--contrast-ratio": "4.5:1+",
+      "--color-hierarchy": "improved",
+      "--wcag-level": "AA+"
+    },
+    "checklist": [
+      "Improved contrast AA/AAA",
+      "Soft shadows modern",
+      "Border-radius 8-12px",
+      "Animations 200-300ms",
+      "Focus states visible",
+      "Color hierarchy clear",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Cushion' house style. Design evolved neumorphism with improved contrast (WCAG AA+), modern aesthetics, subtle depth, accessibility focus. Use soft shadows (softer than flat but clearer than pure neumorphism), better color hierarchy, improved focus states, modern 200-300ms animations.",
+    "provenance": {
+      "sourceStyle": "Soft UI Evolution",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Romantic",
+    "colorScheme": {
+      "id": "lavender-vow",
+      "name": "Lavender Vow",
+      "mode": "light"
+    },
+    "roles": {
+      "bg": "#F7F6F9",
+      "surface": "#EBE6EF",
+      "text": "#33283E",
+      "muted": "#735C8A",
+      "accent": "#9635B6",
+      "onAccent": "#FFFFFF",
+      "border": "#937BAA"
+    },
+    "contrast": {
+      "text/bg": 12.88,
+      "text/surface": 11.29,
+      "muted/bg": 5.38,
+      "muted/surface": 4.71,
+      "accent/bg": 5.6,
+      "accent/surface": 4.91,
+      "onAccent/accent": 6.03,
+      "border/bg": 3.45,
+      "border/surface": 3.02
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "driftwood": {
+    "name": "Driftwood",
+    "slug": "driftwood",
+    "category": "Organic & Analog",
+    "vibe": [
+      "Muted earthy",
+      "skin tones",
+      "wood",
+      "soil",
+      "sand",
+      "terracotta",
+      "warmth",
+      "organic materials"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#C67B5C",
+        "#D4C4A8",
+        "#B5651D",
+        "#F5F0E1",
+        "#8B4513",
+        "#6B7B3C",
+        "#9C8B7A"
+      ],
+      "primary_raw": "Terracotta #C67B5C, Sand Beige #D4C4A8, Warm Clay #B5651D, Soft Cream #F5F0E1",
+      "secondary_raw": "Earth Brown #8B4513, Olive Green #6B7B3C, Warm Stone #9C8B7A, muted gradients"
+    },
+    "motion": {
+      "effects": "Subtle parallax, natural easing (ease-out), texture overlays, grain effects, soft shadows"
+    },
+    "bestFor": [
+      "Wellness brands",
+      "sustainable products",
+      "artisan goods",
+      "organic food",
+      "spa/beauty",
+      "home decor"
+    ],
+    "avoidFor": [
+      "Tech startups",
+      "gaming",
+      "nightlife",
+      "corporate finance",
+      "high-energy brands"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "◐ Partial"
+    },
+    "grades": {
+      "performance": "⚡ Excellent",
+      "accessibility": "✓ WCAG AA",
+      "mobile": "✓ High",
+      "complexity": "Low"
+    },
+    "cssKeywords": "background: warm earth tones, color: #C67B5C #D4C4A8 #6B7B3C, border-radius: organic (varied), box-shadow: soft natural, texture overlays (grain), font: humanist sans-serif",
+    "designVars": {
+      "--terracotta": "#C67B5C",
+      "--sand-beige": "#D4C4A8",
+      "--warm-clay": "#B5651D",
+      "--soft-cream": "#F5F0E1",
+      "--olive-green": "#6B7B3C",
+      "--grain-opacity": "0.1"
+    },
+    "checklist": [
+      "Earth tones dominant",
+      "Warm feel achieved",
+      "Textures subtle",
+      "Handmade quality",
+      "Sustainable messaging",
+      "Calming aesthetic",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Driftwood' house style. Design with nature distilled aesthetic. Use: muted earthy colors (terracotta, sand, olive), organic materials feel, warm tones, handmade warmth, natural textures, artisan quality, sustainable vibe, soft gradients.",
+    "provenance": {
+      "sourceStyle": "Nature Distilled",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Neutral",
+    "colorScheme": {
+      "id": "urban-loft",
+      "name": "Urban Loft",
+      "mode": "dark"
+    },
+    "roles": {
+      "bg": "#171412",
+      "surface": "#28231F",
+      "text": "#E9E5E2",
+      "muted": "#A5978D",
+      "accent": "#CA9E72",
+      "onAccent": "#000000",
+      "border": "#7A6B60"
+    },
+    "contrast": {
+      "text/bg": 14.64,
+      "text/surface": 12.42,
+      "muted/bg": 6.47,
+      "muted/surface": 5.49,
+      "accent/bg": 7.55,
+      "accent/surface": 6.4,
+      "onAccent/accent": 8.65,
+      "border/bg": 3.58,
+      "border/surface": 3.04
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "eight-bit": {
+    "name": "Eight-Bit",
+    "slug": "eight-bit",
+    "category": "Organic & Analog",
+    "vibe": [
+      "Retro",
+      "8-bit",
+      "16-bit",
+      "gaming",
+      "blocky",
+      "nostalgic",
+      "pixelated",
+      "arcade"
+    ],
+    "colors": {
+      "palette_hexes": [],
+      "primary_raw": "Primary colors (NES Palette), brights, limited palette",
+      "secondary_raw": "Black outlines, shading via dithering or block colors"
+    },
+    "motion": {
+      "effects": "Frame-by-frame sprite animation, blinking cursor, instant transitions, marquee text"
+    },
+    "bestFor": [
+      "Indie games",
+      "retro tools",
+      "creative portfolios",
+      "nostalgia marketing",
+      "Web3/NFT"
+    ],
+    "avoidFor": [
+      "Professional corporate",
+      "modern SaaS",
+      "high-res photography sites"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚡ Excellent",
+      "accessibility": "✓ Good (if contrast ok)",
+      "mobile": "✓ High",
+      "complexity": "Medium"
+    },
+    "cssKeywords": "font-family: 'Press Start 2P', image-rendering: pixelated, box-shadow: 4px 0 0 #000 (pixel border), no anti-aliasing",
+    "designVars": {
+      "--pixel-size": "4px",
+      "--font": "pixel font",
+      "--border-style": "pixel-shadow",
+      "--anti-alias": "none"
+    },
+    "checklist": [
+      "Pixelated fonts loaded",
+      "Images sharp (no blur)",
+      "CSS box-shadow for pixel borders",
+      "Retro palette",
+      "Blocky layout",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Eight-Bit' house style. Design a pixel art inspired interface. Use: pixelated fonts, 8-bit or 16-bit aesthetic, sharp edges (image-rendering: pixelated), limited color palette, blocky UI elements, retro gaming feel.",
+    "provenance": {
+      "sourceStyle": "Pixel Art",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Vibrant",
+    "colorScheme": {
+      "id": "electropop",
+      "name": "Electropop",
+      "mode": "dark"
+    },
+    "roles": {
+      "bg": "#191019",
+      "surface": "#2C1C2C",
+      "text": "#EAE1EA",
+      "muted": "#A989A9",
+      "accent": "#FA42CC",
+      "onAccent": "#000000",
+      "border": "#8C5A8C"
+    },
+    "contrast": {
+      "text/bg": 14.57,
+      "text/surface": 12.57,
+      "muted/bg": 6.05,
+      "muted/surface": 5.22,
+      "accent/bg": 5.95,
+      "accent/surface": 5.13,
+      "onAccent/accent": 6.72,
+      "border/bg": 3.5,
+      "border/surface": 3.02
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "fernwork": {
+    "name": "Fernwork",
+    "slug": "fernwork",
+    "category": "Organic & Analog",
+    "vibe": [
+      "Nature",
+      "organic shapes",
+      "green",
+      "sustainable",
+      "rounded",
+      "flowing",
+      "wellness",
+      "earthy"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#228B22",
+        "#8B4513",
+        "#87CEEB",
+        "#F5F5DC"
+      ],
+      "primary_raw": "#228B22 (Forest Green), #8B4513 (Earth Brown), #87CEEB (Sky Blue), #F5F5DC (Beige)",
+      "secondary_raw": "Natural gradients, earth tones, sky blues, organic textures, wood/stone colors"
+    },
+    "motion": {
+      "effects": "Rounded corners (16-24px), organic curves (border-radius variations), natural shadows, flowing SVG shapes"
+    },
+    "bestFor": [
+      "Wellness apps",
+      "sustainability brands",
+      "eco products",
+      "health apps",
+      "meditation",
+      "organic food brands"
+    ],
+    "avoidFor": [
+      "Tech-focused products",
+      "gaming",
+      "industrial",
+      "urban brands"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚡ Excellent",
+      "accessibility": "✓ WCAG AA",
+      "mobile": "✓ High",
+      "complexity": "Low"
+    },
+    "cssKeywords": "border-radius: 16-24px (varied), background: earth tones, SVG organic shapes (blob), box-shadow: natural soft, color: #228B22 #8B4513 #87CEEB, texture overlays (subtle)",
+    "designVars": {
+      "--forest-green": "#228B22",
+      "--earth-brown": "#8B4513",
+      "--sky-blue": "#87CEEB",
+      "--cream-bg": "#F5F5DC",
+      "--organic-radius": "24px",
+      "--shadow-soft": "0 8px 32px rgba(0,0,0,0.08)"
+    },
+    "checklist": [
+      "Earth tones dominant",
+      "Organic curves present",
+      "Natural textures subtle",
+      "Green accents",
+      "Rounded everywhere",
+      "Calming feel",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Fernwork' house style. Design a biophilic organic interface. Use: nature-inspired colors (greens, browns), organic curved shapes, rounded corners (16-24px), natural textures (wood, stone), flowing SVG elements, wellness aesthetic, earthy palette.",
+    "provenance": {
+      "sourceStyle": "Organic Biophilic",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Monochromatic",
+    "colorScheme": {
+      "id": "moss-study",
+      "name": "Moss Study",
+      "mode": "light"
+    },
+    "roles": {
+      "bg": "#F7F9F6",
+      "surface": "#EAEEE7",
+      "text": "#313C2A",
+      "muted": "#5D714E",
+      "accent": "#609639",
+      "onAccent": "#000000",
+      "border": "#779064"
+    },
+    "contrast": {
+      "text/bg": 10.96,
+      "text/surface": 9.88,
+      "muted/bg": 5.04,
+      "muted/surface": 4.54,
+      "accent/bg": 3.35,
+      "accent/surface": 3.02,
+      "onAccent/accent": 5.92,
+      "border/bg": 3.33,
+      "border/surface": 3
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "flatline": {
+    "name": "Flatline",
+    "slug": "flatline",
+    "category": "Quiet Foundations",
+    "vibe": [
+      "2D",
+      "minimalist",
+      "bold colors",
+      "no shadows",
+      "clean lines",
+      "simple shapes",
+      "typography-focused",
+      "modern"
+    ],
+    "colors": {
+      "palette_hexes": [],
+      "primary_raw": "Solid bright: Red, Orange, Blue, Green, limited palette (4-6 max)",
+      "secondary_raw": "Complementary colors, muted secondaries, high saturation, clean accents"
+    },
+    "motion": {
+      "effects": "No gradients/shadows, simple hover (color/opacity shift), fast loading, clean transitions (150-200ms ease), minimal icons"
+    },
+    "bestFor": [
+      "Web apps",
+      "mobile apps",
+      "cross-platform",
+      "startup MVPs",
+      "user-friendly",
+      "SaaS",
+      "dashboards",
+      "corporate"
+    ],
+    "avoidFor": [
+      "Complex 3D",
+      "premium/luxury",
+      "artistic portfolios",
+      "immersive experiences",
+      "high-detail"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚡ Excellent",
+      "accessibility": "✓ WCAG AAA",
+      "mobile": "✓ High",
+      "complexity": "Low"
+    },
+    "cssKeywords": "box-shadow: none, background: solid color, border-radius: 0-4px, color: solid (no gradients), fill: solid, stroke: 1-2px, font: bold sans-serif, icons: simplified SVG",
+    "designVars": {
+      "--shadow": "none",
+      "--color-palette": "4-6 solid",
+      "--border-radius": "2px",
+      "--gradient": "none",
+      "--icons": "simplified SVG",
+      "--animation": "minimal 150-200ms"
+    },
+    "checklist": [
+      "No shadows/gradients",
+      "4-6 solid colors max",
+      "Clean lines consistent",
+      "Simple shapes used",
+      "Icon-heavy layout",
+      "High saturation colors",
+      "Fast loading verified",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Flatline' house style. Create a flat, 2D interface with bold colors, no shadows/gradients, clean lines, simple geometric shapes, icon-heavy, typography-focused, minimal ornamentation. Use 4-6 solid, bright colors in a limited palette with high saturation.",
+    "provenance": {
+      "sourceStyle": "Flat Design",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Monochromatic",
+    "colorScheme": {
+      "id": "slate-column",
+      "name": "Slate Column",
+      "mode": "light"
+    },
+    "roles": {
+      "bg": "#F6F7F8",
+      "surface": "#E8EAEE",
+      "text": "#2B323B",
+      "muted": "#5D6B7E",
+      "accent": "#356BB6",
+      "onAccent": "#FFFFFF",
+      "border": "#79879C"
+    },
+    "contrast": {
+      "text/bg": 12.07,
+      "text/surface": 10.75,
+      "muted/bg": 5.06,
+      "muted/surface": 4.51,
+      "accent/bg": 4.98,
+      "accent/surface": 4.44,
+      "onAccent/accent": 5.34,
+      "border/bg": 3.4,
+      "border/surface": 3.03
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "flicker": {
+    "name": "Flicker",
+    "slug": "flicker",
+    "category": "Soft & Tactile",
+    "vibe": [
+      "Small animations",
+      "gesture-based",
+      "tactile feedback",
+      "subtle animations",
+      "contextual interactions",
+      "responsive"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#22C55E",
+        "#EF4444",
+        "#F59E0B"
+      ],
+      "primary_raw": "Subtle color shifts (10-20%), feedback: Green #22C55E, Red #EF4444, Amber #F59E0B",
+      "secondary_raw": "Accent feedback, neutral supporting, clear action indicators"
+    },
+    "motion": {
+      "effects": "Small hover (50-100ms), loading spinners, success/error state anim, gesture-triggered (swipe/pinch), haptic"
+    },
+    "bestFor": [
+      "Mobile apps",
+      "touchscreen UIs",
+      "productivity tools",
+      "user-friendly",
+      "consumer apps",
+      "interactive components"
+    ],
+    "avoidFor": [
+      "Desktop-only",
+      "critical performance",
+      "accessibility-first (alternatives needed)"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚡ Excellent",
+      "accessibility": "✓ Good",
+      "mobile": "✓ High",
+      "complexity": "Medium"
+    },
+    "cssKeywords": "animation: short 50-100ms, transition: hover states, @media (hover: hover) for desktop, :active for press, haptic-feedback CSS/API, loading animation smooth loop",
+    "designVars": {
+      "--micro-animation-duration": "50-100ms",
+      "--gesture-responsive": "true",
+      "--haptic-feedback": "true",
+      "--loading-animation": "smooth",
+      "--state-feedback": "success+error"
+    },
+    "checklist": [
+      "Micro-animations 50-100ms",
+      "Gesture-responsive",
+      "Tactile feedback visual/haptic",
+      "Loading spinners smooth",
+      "Success/error states clear",
+      "Hover effects subtle",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Flicker' house style. Design with delightful micro-interactions: small 50-100ms animations, gesture-based responses, tactile feedback, loading spinners, success/error states, subtle hover effects, haptic feedback triggers for mobile. Focus on responsive, contextual interactions.",
+    "provenance": {
+      "sourceStyle": "Micro-interactions",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Vibrant",
+    "colorScheme": {
+      "id": "hot-magenta",
+      "name": "Hot Magenta",
+      "mode": "light"
+    },
+    "roles": {
+      "bg": "#FAF5F8",
+      "surface": "#F1E4ED",
+      "text": "#402637",
+      "muted": "#875A78",
+      "accent": "#DF0C87",
+      "onAccent": "#FFFFFF",
+      "border": "#AB7398"
+    },
+    "contrast": {
+      "text/bg": 12.57,
+      "text/surface": 11,
+      "muted/bg": 5.18,
+      "muted/surface": 4.53,
+      "accent/bg": 4.29,
+      "accent/surface": 3.76,
+      "onAccent/accent": 4.63,
+      "border/bg": 3.46,
+      "border/surface": 3.03
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "grainfilm": {
+    "name": "Grainfilm",
+    "slug": "grainfilm",
+    "category": "Organic & Analog",
+    "vibe": [
+      "Film grain",
+      "VHS",
+      "cassette tape",
+      "polaroid",
+      "analog warmth",
+      "faded colors",
+      "light leaks",
+      "vintage photography"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#F5E6C8",
+        "#D4A574",
+        "#4A7B7C",
+        "#E8B4B8"
+      ],
+      "primary_raw": "Faded Cream #F5E6C8, Warm Sepia #D4A574, Muted Teal #4A7B7C, Soft Pink #E8B4B8",
+      "secondary_raw": "Grain overlays, light leak oranges, shadow blues, vintage paper tones, desaturated accents"
+    },
+    "motion": {
+      "effects": "Film grain overlay, VHS tracking effect, polaroid shake, fade-in transitions, light leak animations"
+    },
+    "bestFor": [
+      "Photography portfolios",
+      "music/vinyl brands",
+      "vintage fashion",
+      "nostalgia marketing",
+      "film industry",
+      "cafes"
+    ],
+    "avoidFor": [
+      "Modern tech",
+      "SaaS",
+      "healthcare",
+      "children's apps",
+      "corporate enterprise"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "◐ Partial"
+    },
+    "grades": {
+      "performance": "⚡ Good",
+      "accessibility": "✓ WCAG AA",
+      "mobile": "✓ High",
+      "complexity": "Medium"
+    },
+    "cssKeywords": "filter: sepia() contrast() saturate(0.8), background: noise texture overlay, animation: VHS tracking (transform skew), light leak gradient overlay, border for polaroid frame, grain via SVG filter",
+    "designVars": {
+      "--sepia-amount": "20%",
+      "--contrast": "1.1",
+      "--saturation": "0.8",
+      "--grain-opacity": "0.15",
+      "--light-leak-color": "rgba(255,200,100,0.2)",
+      "--warm-tint": "#F5E6C8"
+    },
+    "checklist": [
+      "Film grain visible",
+      "Colors faded/warm",
+      "Light leaks present",
+      "Nostalgic feel achieved",
+      "Performance with filters",
+      "Images look vintage",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Grainfilm' house style. Design with vintage analog film aesthetic. Use: film grain overlay, faded/desaturated colors, warm sepia tones, light leaks, VHS tracking effect, polaroid frame, analog warmth, nostalgic photography feel.",
+    "provenance": {
+      "sourceStyle": "Vintage Analog / Retro Film",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Vibrant",
+    "colorScheme": {
+      "id": "fireworks",
+      "name": "Fireworks",
+      "mode": "dark"
+    },
+    "roles": {
+      "bg": "#191110",
+      "surface": "#2C1E1C",
+      "text": "#EAE2E1",
+      "muted": "#A98E89",
+      "accent": "#FA7F42",
+      "onAccent": "#000000",
+      "border": "#8A6159"
+    },
+    "contrast": {
+      "text/bg": 14.58,
+      "text/surface": 12.57,
+      "muted/bg": 6.13,
+      "muted/surface": 5.28,
+      "accent/bg": 7.24,
+      "accent/surface": 6.25,
+      "onAccent/accent": 8.18,
+      "border/bg": 3.49,
+      "border/surface": 3
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "halo": {
+    "name": "Halo",
+    "slug": "halo",
+    "category": "Depth & Spatial",
+    "vibe": [
+      "Glass",
+      "depth",
+      "immersion",
+      "spatial",
+      "translucent",
+      "gaze",
+      "gesture",
+      "apple"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#FFFFFF"
+      ],
+      "primary_raw": "Frosted Glass #FFFFFF (15-30% opacity), System White",
+      "secondary_raw": "Vibrant system colors for active states, deep shadows for depth"
+    },
+    "motion": {
+      "effects": "Parallax depth, dynamic lighting response, gaze-hover effects, smooth scale on focus"
+    },
+    "bestFor": [
+      "Spatial computing apps",
+      "VR/AR interfaces",
+      "immersive media",
+      "futuristic dashboards"
+    ],
+    "avoidFor": [
+      "Text-heavy documents",
+      "high-contrast requirements",
+      "non-3D capable devices"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚠ Moderate (blur cost)",
+      "accessibility": "⚠ Contrast risks",
+      "mobile": "✓ High (if adapted)",
+      "complexity": "High"
+    },
+    "cssKeywords": "backdrop-filter: blur(40px) saturate(180%), background: rgba(255,255,255,0.2), border-radius: 24px, box-shadow: 0 8px 32px rgba(0,0,0,0.1), transform: scale on focus, depth via shadows",
+    "designVars": {
+      "--glass-bg": "rgba(255,255,255,0.2)",
+      "--glass-blur": "40px",
+      "--glass-saturate": "180%",
+      "--window-radius": "24px",
+      "--depth-shadow": "0 8px 32px rgba(0,0,0,0.1)",
+      "--focus-scale": "1.02"
+    },
+    "checklist": [
+      "Glass effect visible",
+      "Depth layers clear",
+      "Hover states defined",
+      "Colors vibrant on active",
+      "Floating feel achieved",
+      "Contrast maintained",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Halo' house style. Design a VisionOS-style spatial interface. Use: frosted glass panels, depth layers, translucent backgrounds (15-30% opacity), vibrant colors for active states, gaze-hover effects, floating windows, immersive feel.",
+    "provenance": {
+      "sourceStyle": "Spatial UI (VisionOS)",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Tranquil",
+    "colorScheme": {
+      "id": "moonlight",
+      "name": "Moonlight",
+      "mode": "dark"
+    },
+    "roles": {
+      "bg": "#101219",
+      "surface": "#1C202C",
+      "text": "#E1E3EA",
+      "muted": "#8991A9",
+      "accent": "#699ED3",
+      "onAccent": "#000000",
+      "border": "#5C6990"
+    },
+    "contrast": {
+      "text/bg": 14.59,
+      "text/surface": 12.67,
+      "muted/bg": 5.96,
+      "muted/surface": 5.17,
+      "accent/bg": 6.62,
+      "accent/surface": 5.75,
+      "onAccent/accent": 7.43,
+      "border/bg": 3.45,
+      "border/surface": 3
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "hush": {
+    "name": "Hush",
+    "slug": "hush",
+    "category": "Quiet Foundations",
+    "vibe": [
+      "Bold minimalism",
+      "oversized typography",
+      "high contrast",
+      "negative space",
+      "loud minimal",
+      "statement design"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "primary_raw": "#000000 (Black), #FFFFFF (White), single vibrant accent only",
+      "secondary_raw": "Minimal - single accent color, no secondary colors, extreme restraint"
+    },
+    "motion": {
+      "effects": "font-size: clamp(3rem 10vw 12rem), font-weight: 900, letter-spacing: -0.05em, massive whitespace"
+    },
+    "bestFor": [
+      "Fashion",
+      "architecture",
+      "portfolios",
+      "agency landing pages",
+      "luxury brands",
+      "editorial"
+    ],
+    "avoidFor": [
+      "E-commerce catalogs",
+      "dashboards",
+      "forms",
+      "data-heavy",
+      "elderly users",
+      "complex apps"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚡ Excellent",
+      "accessibility": "✓ WCAG AA",
+      "mobile": "✓ High",
+      "complexity": "Low"
+    },
+    "cssKeywords": "font-size: clamp(3rem, 10vw, 12rem), font-weight: 900, letter-spacing: -0.05em, color: #000 or #FFF, padding: 8rem+, single accent, no decorations",
+    "designVars": {
+      "--type-giant": "clamp(3rem, 10vw, 12rem)",
+      "--type-weight": "900",
+      "--spacing-huge": "8rem",
+      "--color-primary": "#000000",
+      "--color-bg": "#FFFFFF",
+      "--accent": "single color only"
+    },
+    "checklist": [
+      "Typography oversized",
+      "White space extreme",
+      "Black/white dominant",
+      "Single accent only",
+      "Elements minimal",
+      "Statement clear",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Hush' house style. Design with exaggerated minimalism. Use: oversized typography (clamp 3rem-12rem), extreme negative space, black/white primary, single accent color only, bold statements, minimal elements, dramatic contrast.",
+    "provenance": {
+      "sourceStyle": "Exaggerated Minimalism",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Neutral",
+    "colorScheme": {
+      "id": "urban-loft",
+      "name": "Urban Loft",
+      "mode": "dark"
+    },
+    "roles": {
+      "bg": "#171412",
+      "surface": "#28231F",
+      "text": "#E9E5E2",
+      "muted": "#A5978D",
+      "accent": "#CA9E72",
+      "onAccent": "#000000",
+      "border": "#7A6B60"
+    },
+    "contrast": {
+      "text/bg": 14.64,
+      "text/surface": 12.42,
+      "muted/bg": 6.47,
+      "muted/surface": 5.49,
+      "accent/bg": 7.55,
+      "accent/surface": 6.4,
+      "onAccent/accent": 8.65,
+      "border/bg": 3.58,
+      "border/surface": 3.04
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "jamboree": {
+    "name": "Jamboree",
+    "slug": "jamboree",
+    "category": "Bold & Raw",
+    "vibe": [
+      "80s",
+      "geometric",
+      "playful",
+      "postmodern",
+      "shapes",
+      "patterns",
+      "squiggles",
+      "triangles"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#FF71CE",
+        "#FFCE5C",
+        "#86CCCA",
+        "#6A7BB4"
+      ],
+      "primary_raw": "#FF71CE (Hot Pink), #FFCE5C (Yellow), #86CCCA (Teal), #6A7BB4 (Blue Purple)",
+      "secondary_raw": "Complementary geometric colors, pattern fills, contrasting accent shapes"
+    },
+    "motion": {
+      "effects": "transform: rotate(), clip-path: polygon(), mix-blend-mode, repeating patterns, bold shapes"
+    },
+    "bestFor": [
+      "Creative agencies",
+      "music sites",
+      "youth brands",
+      "event promotion",
+      "artistic portfolios",
+      "entertainment"
+    ],
+    "avoidFor": [
+      "Corporate finance",
+      "healthcare",
+      "legal",
+      "elderly users",
+      "conservative brands"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚡ Excellent",
+      "accessibility": "⚠ Check contrast",
+      "mobile": "✓ Good",
+      "complexity": "Medium"
+    },
+    "cssKeywords": "clip-path: polygon() for shapes, background: repeating patterns, transform: rotate() for tilted elements, mix-blend-mode for overlays, border: dashed/dotted patterns, bold sans-serif",
+    "designVars": {
+      "--memphis-pink": "#FF71CE",
+      "--memphis-yellow": "#FFCE5C",
+      "--memphis-teal": "#86CCCA",
+      "--memphis-purple": "#6A7BB4",
+      "--pattern-size": "20px",
+      "--shape-rotation": "15deg"
+    },
+    "checklist": [
+      "Geometric shapes visible",
+      "Colors bold/clashing",
+      "Patterns present",
+      "Layout asymmetric",
+      "Playful decorations",
+      "80s vibe achieved",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Jamboree' house style. Design a Memphis style interface. Use: bold geometric shapes (triangles, squiggles, circles), bright clashing colors, 80s postmodern aesthetic, playful patterns, dotted textures, asymmetric layouts, decorative elements.",
+    "provenance": {
+      "sourceStyle": "Memphis Design",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Playful",
+    "colorScheme": {
+      "id": "mango",
+      "name": "Mango",
+      "mode": "light"
+    },
+    "roles": {
+      "bg": "#FAF8F5",
+      "surface": "#F1ECE4",
+      "text": "#403526",
+      "muted": "#7A6951",
+      "accent": "#D66A0B",
+      "onAccent": "#000000",
+      "border": "#9F845F"
+    },
+    "contrast": {
+      "text/bg": 11.29,
+      "text/surface": 10.17,
+      "muted/bg": 4.99,
+      "muted/surface": 4.5,
+      "accent/bg": 3.34,
+      "accent/surface": 3.01,
+      "onAccent/accent": 5.93,
+      "border/bg": 3.34,
+      "border/surface": 3.01
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "kinetype": {
+    "name": "Kinetype",
+    "slug": "kinetype",
+    "category": "Depth & Spatial",
+    "vibe": [
+      "Motion text",
+      "animated type",
+      "moving letters",
+      "dynamic",
+      "typing effect",
+      "morphing",
+      "scroll-triggered text"
+    ],
+    "colors": {
+      "palette_hexes": [],
+      "primary_raw": "Flexible - high contrast recommended, bold colors for emphasis, animation-friendly palette",
+      "secondary_raw": "Accent colors for emphasis, transition colors, gradient text fills"
+    },
+    "motion": {
+      "effects": "@keyframes text animation, typing effect, background-clip: text, GSAP ScrollTrigger, split text"
+    },
+    "bestFor": [
+      "Hero sections",
+      "marketing sites",
+      "video platforms",
+      "storytelling",
+      "creative portfolios",
+      "landing pages"
+    ],
+    "avoidFor": [
+      "Long-form content",
+      "accessibility-critical",
+      "data interfaces",
+      "forms",
+      "elderly users"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚠ Moderate",
+      "accessibility": "❌ Poor (motion)",
+      "mobile": "✓ Good",
+      "complexity": "High"
+    },
+    "cssKeywords": "@keyframes for text animation, background-clip: text, GSAP SplitText, typing effect (steps()), transform on letters, scroll-triggered (Intersection Observer), variable fonts for morphing",
+    "designVars": {
+      "--text-animation-duration": "1s",
+      "--letter-delay": "0.05s",
+      "--typing-speed": "100ms",
+      "--gradient-text": "linear-gradient(90deg, #color1, #color2)",
+      "--morph-duration": "0.5s"
+    },
+    "checklist": [
+      "Text animations smooth",
+      "Prefers-reduced-motion respected",
+      "Fallback for no-JS",
+      "Mobile performance ok",
+      "Typing effect timed",
+      "Scroll triggers work",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Kinetype' house style. Design with kinetic typography. Use: animated text, scroll-triggered reveals, typing effects, letter-by-letter animations, morphing text, gradient text fills, oversized hero text, text as the main visual element.",
+    "provenance": {
+      "sourceStyle": "Kinetic Typography",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Vibrant",
+    "colorScheme": {
+      "id": "hot-magenta",
+      "name": "Hot Magenta",
+      "mode": "light"
+    },
+    "roles": {
+      "bg": "#FAF5F8",
+      "surface": "#F1E4ED",
+      "text": "#402637",
+      "muted": "#875A78",
+      "accent": "#DF0C87",
+      "onAccent": "#FFFFFF",
+      "border": "#AB7398"
+    },
+    "contrast": {
+      "text/bg": 12.57,
+      "text/surface": 11,
+      "muted/bg": 5.18,
+      "muted/surface": 4.53,
+      "accent/bg": 4.29,
+      "accent/surface": 3.76,
+      "onAccent/accent": 4.63,
+      "border/bg": 3.46,
+      "border/surface": 3.03
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "level": {
+    "name": "Level",
+    "slug": "level",
+    "category": "Quiet Foundations",
+    "vibe": [
+      "High contrast",
+      "large text (16px+)",
+      "keyboard navigation",
+      "screen reader friendly",
+      "WCAG compliant",
+      "focus state",
+      "semantic"
+    ],
+    "colors": {
+      "palette_hexes": [],
+      "primary_raw": "WCAG AA/AAA (4.5:1 min), simple primary, clear secondary, high luminosity (7:1+)",
+      "secondary_raw": "Symbol-based colors (not color-only), supporting patterns, inclusive combinations"
+    },
+    "motion": {
+      "effects": "Clear focus rings (3-4px), ARIA labels, skip links, responsive design, reduced motion, 44x44px touch targets"
+    },
+    "bestFor": [
+      "Government",
+      "healthcare",
+      "education",
+      "inclusive products",
+      "large audience",
+      "legal compliance",
+      "public"
+    ],
+    "avoidFor": [
+      "None - accessibility universal"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚡ Excellent",
+      "accessibility": "✓ WCAG AAA",
+      "mobile": "✓ High",
+      "complexity": "Low"
+    },
+    "cssKeywords": "color-contrast: 7:1+, font-size: 16px+, outline: 3-4px on :focus-visible, aria-label, role attributes, @media (prefers-reduced-motion), touch-target: 44x44px, cursor: pointer",
+    "designVars": {
+      "--contrast-ratio": "7:1",
+      "--font-size-min": "16px",
+      "--focus-ring": "3-4px",
+      "--touch-target": "44x44px",
+      "--wcag-level": "AAA",
+      "--keyboard-accessible": "true",
+      "--sr-tested": "true"
+    },
+    "checklist": [
+      "WCAG AAA verified",
+      "7:1+ contrast checked",
+      "Keyboard navigation tested",
+      "Screen reader tested",
+      "Focus visible 3-4px",
+      "Semantic HTML used",
+      "Touch targets 44x44px",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Level' house style. Design with WCAG AAA compliance. Include: high contrast (7:1+), large text (16px+), keyboard navigation, screen reader compatibility, focus states visible (3-4px ring), semantic HTML, ARIA labels, skip links, reduced motion support (prefers-reduced-motion), 44x44px touch targets.",
+    "provenance": {
+      "sourceStyle": "Accessible & Ethical",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Monochromatic",
+    "colorScheme": {
+      "id": "slate-column",
+      "name": "Slate Column",
+      "mode": "light"
+    },
+    "roles": {
+      "bg": "#F6F7F8",
+      "surface": "#E8EAEE",
+      "text": "#2B323B",
+      "muted": "#5D6B7E",
+      "accent": "#356BB6",
+      "onAccent": "#FFFFFF",
+      "border": "#79879C"
+    },
+    "contrast": {
+      "text/bg": 12.07,
+      "text/surface": 10.75,
+      "muted/bg": 5.06,
+      "muted/surface": 4.51,
+      "accent/bg": 4.98,
+      "accent/surface": 4.44,
+      "onAccent/accent": 5.34,
+      "border/bg": 3.4,
+      "border/surface": 3.03
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "mercury": {
+    "name": "Mercury",
+    "slug": "mercury",
+    "category": "Glass & Aura",
+    "vibe": [
+      "Flowing glass",
+      "morphing",
+      "smooth transitions",
+      "fluid effects",
+      "translucent",
+      "animated blur",
+      "iridescent",
+      "chromatic aberration"
+    ],
+    "colors": {
+      "palette_hexes": [],
+      "primary_raw": "Vibrant iridescent (rainbow spectrum), translucent base with opacity shifts, gradient fluidity",
+      "secondary_raw": "Chromatic aberration (Red-Cyan), iridescent oil-spill, fluid gradient blends, holographic effects"
+    },
+    "motion": {
+      "effects": "Morphing elements (SVG/CSS), fluid animations (400-600ms curves), dynamic blur (backdrop-filter), color transitions"
+    },
+    "bestFor": [
+      "Premium SaaS",
+      "high-end e-commerce",
+      "creative platforms",
+      "branding experiences",
+      "luxury portfolios"
+    ],
+    "avoidFor": [
+      "Performance-limited",
+      "critical accessibility",
+      "complex data",
+      "budget projects"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚠ Moderate-Poor",
+      "accessibility": "⚠ Text contrast",
+      "mobile": "◐ Medium",
+      "complexity": "High"
+    },
+    "cssKeywords": "animation: morphing SVG paths (400-600ms), backdrop-filter: blur + saturate, filter: hue-rotate + brightness, blend-mode: screen, background: iridescent gradient",
+    "designVars": {
+      "--morph-duration": "400-600ms",
+      "--blur-amount": "15px",
+      "--chromatic-aberration": "true",
+      "--iridescent": "true",
+      "--blend-mode": "screen",
+      "--smooth-transitions": "true"
+    },
+    "checklist": [
+      "Morphing animations 400-600ms",
+      "Chromatic aberration applied",
+      "Dynamic blur active",
+      "Iridescent gradients",
+      "Smooth color transitions",
+      "Premium feel achieved",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Mercury' house style. Create a premium liquid glass effect with morphing shapes, flowing animations, chromatic aberration, iridescent gradients, smooth 400-600ms transitions. Use SVG morphing for shape changes, dynamic blur, smooth color transitions creating a fluid, premium feel.",
+    "provenance": {
+      "sourceStyle": "Liquid Glass",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Vibrant",
+    "colorScheme": {
+      "id": "cobalt-flash",
+      "name": "Cobalt Flash",
+      "mode": "dark"
+    },
+    "roles": {
+      "bg": "#101319",
+      "surface": "#1C212C",
+      "text": "#E1E4EA",
+      "muted": "#8994A9",
+      "accent": "#429EFA",
+      "onAccent": "#000000",
+      "border": "#5A6B8D"
+    },
+    "contrast": {
+      "text/bg": 14.6,
+      "text/surface": 12.65,
+      "muted/bg": 6.09,
+      "muted/surface": 5.27,
+      "accent/bg": 6.64,
+      "accent/surface": 5.76,
+      "onAccent/accent": 7.5,
+      "border/bg": 3.47,
+      "border/surface": 3.01
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "momentum": {
+    "name": "Momentum",
+    "slug": "momentum",
+    "category": "Soft & Tactile",
+    "vibe": [
+      "Animation-heavy",
+      "microinteractions",
+      "smooth transitions",
+      "scroll effects",
+      "parallax",
+      "entrance anim",
+      "page transitions"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#22C55E",
+        "#EF4444"
+      ],
+      "primary_raw": "Bold colors emphasize movement, high contrast animated, dynamic gradients, accent action colors",
+      "secondary_raw": "Transitional states, success (Green #22C55E), error (Red #EF4444), neutral feedback"
+    },
+    "motion": {
+      "effects": "Scroll anim (Intersection Observer), hover (300-400ms), entrance, parallax (3-5 layers), page transitions"
+    },
+    "bestFor": [
+      "Portfolio sites",
+      "storytelling platforms",
+      "interactive experiences",
+      "entertainment apps",
+      "creative",
+      "SaaS"
+    ],
+    "avoidFor": [
+      "Data dashboards",
+      "critical accessibility",
+      "low-power devices",
+      "content-heavy",
+      "motion-sensitive"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚠ Good",
+      "accessibility": "⚠ Prefers-reduced-motion",
+      "mobile": "✓ Good",
+      "complexity": "High"
+    },
+    "cssKeywords": "animation: @keyframes scroll-reveal, transform: translateY/X, Intersection Observer API, will-change: transform, scroll-behavior: smooth, animation-duration: 300-400ms",
+    "designVars": {
+      "--animation-duration": "300-400ms",
+      "--parallax-layers": "5",
+      "--scroll-behavior": "smooth",
+      "--gpu-accelerated": "true",
+      "--entrance-animation": "true",
+      "--page-transition": "smooth"
+    },
+    "checklist": [
+      "Scroll animations active",
+      "Parallax 3-5 layers",
+      "Entrance animations smooth",
+      "Page transitions fluid",
+      "GPU accelerated",
+      "Prefers-reduced-motion respected",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Momentum' house style. Build an animation-heavy interface with scroll-triggered animations, microinteractions, parallax scrolling (3-5 layers), smooth transitions (300-400ms), entrance animations, page transitions. Use Intersection Observer for scroll effects, transform for performance, GPU acceleration.",
+    "provenance": {
+      "sourceStyle": "Motion-Driven",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Vibrant",
+    "colorScheme": {
+      "id": "electropop",
+      "name": "Electropop",
+      "mode": "dark"
+    },
+    "roles": {
+      "bg": "#191019",
+      "surface": "#2C1C2C",
+      "text": "#EAE1EA",
+      "muted": "#A989A9",
+      "accent": "#FA42CC",
+      "onAccent": "#000000",
+      "border": "#8C5A8C"
+    },
+    "contrast": {
+      "text/bg": 14.57,
+      "text/surface": 12.57,
+      "muted/bg": 6.05,
+      "muted/surface": 5.22,
+      "accent/bg": 5.95,
+      "accent/surface": 5.13,
+      "onAccent/accent": 6.72,
+      "border/bg": 3.5,
+      "border/surface": 3.02
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "nebula": {
+    "name": "Nebula",
+    "slug": "nebula",
+    "category": "Glass & Aura",
+    "vibe": [
+      "Complex gradients",
+      "mesh gradients",
+      "multi-color blend",
+      "aurora effect",
+      "flowing colors",
+      "iridescent",
+      "holographic",
+      "prismatic"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#00FFFF",
+        "#FF00FF",
+        "#FFFF00",
+        "#0066FF",
+        "#00FF66"
+      ],
+      "primary_raw": "Multi-stop gradients: Cyan #00FFFF, Magenta #FF00FF, Yellow #FFFF00, Blue #0066FF, Green #00FF66",
+      "secondary_raw": "Complementary mesh points, smooth color transitions, iridescent overlays, chromatic shifts"
+    },
+    "motion": {
+      "effects": "CSS mesh-gradient (experimental), SVG gradients, canvas gradients, smooth color morphing, flowing animation"
+    },
+    "bestFor": [
+      "Hero sections",
+      "backgrounds",
+      "creative brands",
+      "music platforms",
+      "fashion",
+      "lifestyle",
+      "premium products"
+    ],
+    "avoidFor": [
+      "Data interfaces",
+      "text-heavy content",
+      "accessibility-critical",
+      "conservative brands"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚠ Good",
+      "accessibility": "⚠ Text contrast",
+      "mobile": "✓ Good",
+      "complexity": "Medium"
+    },
+    "cssKeywords": "background: conic-gradient or mesh (SVG), animation: gradient flow (background-position), filter: hue-rotate for shimmer, mix-blend-mode: screen, canvas for complex mesh, multiple gradient layers",
+    "designVars": {
+      "--mesh-color-1": "#00FFFF",
+      "--mesh-color-2": "#FF00FF",
+      "--mesh-color-3": "#FFFF00",
+      "--mesh-color-4": "#00FF66",
+      "--flow-duration": "10s",
+      "--shimmer-intensity": "0.3"
+    },
+    "checklist": [
+      "Mesh gradient visible",
+      "Colors flow smoothly",
+      "Aurora effect achieved",
+      "Performance acceptable",
+      "Text remains readable",
+      "Mobile renders ok",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Nebula' house style. Design with gradient mesh aurora effect. Use: multi-color mesh gradients, flowing color transitions, aurora/northern lights feel, iridescent overlays, holographic shimmer, prismatic effects, smooth color morphing.",
+    "provenance": {
+      "sourceStyle": "Gradient Mesh / Aurora Evolved",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Vibrant",
+    "colorScheme": {
+      "id": "electropop",
+      "name": "Electropop",
+      "mode": "dark"
+    },
+    "roles": {
+      "bg": "#191019",
+      "surface": "#2C1C2C",
+      "text": "#EAE1EA",
+      "muted": "#A989A9",
+      "accent": "#FA42CC",
+      "onAccent": "#000000",
+      "border": "#8C5A8C"
+    },
+    "contrast": {
+      "text/bg": 14.57,
+      "text/surface": 12.57,
+      "muted/bg": 6.05,
+      "muted/surface": 5.22,
+      "accent/bg": 5.95,
+      "accent/surface": 5.13,
+      "onAccent/accent": 6.72,
+      "border/bg": 3.5,
+      "border/surface": 3.02
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "overclock": {
+    "name": "Overclock",
+    "slug": "overclock",
+    "category": "Neon & Night",
+    "vibe": [
+      "Neon",
+      "dark mode",
+      "terminal",
+      "HUD",
+      "sci-fi",
+      "glitch",
+      "dystopian",
+      "futuristic"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#00FF00",
+        "#FF00FF",
+        "#00FFFF",
+        "#0D0D0D"
+      ],
+      "primary_raw": "#00FF00 (Matrix Green), #FF00FF (Magenta), #00FFFF (Cyan), #0D0D0D (Dark)",
+      "secondary_raw": "Neon gradients, scanline overlays, glitch colors, terminal green accents"
+    },
+    "motion": {
+      "effects": "Neon glow (text-shadow), glitch animations (skew/offset), scanlines (::before overlay), terminal fonts"
+    },
+    "bestFor": [
+      "Gaming platforms",
+      "tech products",
+      "crypto apps",
+      "sci-fi applications",
+      "developer tools",
+      "entertainment"
+    ],
+    "avoidFor": [
+      "Corporate enterprise",
+      "healthcare",
+      "family apps",
+      "conservative brands",
+      "elderly users"
+    ],
+    "modes": {
+      "light": "✗ No",
+      "dark": "✓ Only"
+    },
+    "grades": {
+      "performance": "⚠ Moderate",
+      "accessibility": "⚠ Limited (dark+neon)",
+      "mobile": "◐ Medium",
+      "complexity": "Medium"
+    },
+    "cssKeywords": "background: #0D0D0D, color: #00FF00 or #FF00FF, font-family: monospace, text-shadow: 0 0 10px neon, animation: glitch (transform skew), ::before scanlines (repeating-linear-gradient)",
+    "designVars": {
+      "--bg-dark": "#0D0D0D",
+      "--neon-green": "#00FF00",
+      "--neon-magenta": "#FF00FF",
+      "--neon-cyan": "#00FFFF",
+      "--scanline-opacity": "0.1",
+      "--glitch-duration": "0.3s"
+    },
+    "checklist": [
+      "Dark background only",
+      "Neon accents visible",
+      "Glitch effect subtle",
+      "Scanlines optional",
+      "Monospace font",
+      "Terminal aesthetic",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Overclock' house style. Design a cyberpunk interface. Use: neon colors on dark (#0D0D0D), terminal/HUD aesthetic, glitch effects, scanlines overlay, matrix green accents, monospace fonts, angular shapes, dystopian tech feel.",
+    "provenance": {
+      "sourceStyle": "Cyberpunk UI",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Vibrant",
+    "colorScheme": {
+      "id": "neon-jungle",
+      "name": "Neon Jungle",
+      "mode": "dark"
+    },
+    "roles": {
+      "bg": "#101916",
+      "surface": "#1C2C26",
+      "text": "#E1EAE7",
+      "muted": "#89A99E",
+      "accent": "#42FA7F",
+      "onAccent": "#000000",
+      "border": "#4E7A6B"
+    },
+    "contrast": {
+      "text/bg": 14.6,
+      "text/surface": 11.91,
+      "muted/bg": 7.02,
+      "muted/surface": 5.73,
+      "accent/bg": 12.97,
+      "accent/surface": 10.58,
+      "onAccent/accent": 15.21,
+      "border/bg": 3.68,
+      "border/surface": 3
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "parallax": {
+    "name": "Parallax",
+    "slug": "parallax",
+    "category": "Depth & Spatial",
+    "vibe": [
+      "Scroll-driven",
+      "narrative",
+      "layered scrolling",
+      "immersive",
+      "progressive disclosure",
+      "cinematic",
+      "scroll-triggered"
+    ],
+    "colors": {
+      "palette_hexes": [],
+      "primary_raw": "Story-dependent, often gradients and natural colors, section-specific palettes",
+      "secondary_raw": "Section transition colors, depth layer colors, narrative mood colors"
+    },
+    "motion": {
+      "effects": "transform: translateY(scroll), position: fixed/sticky, perspective: 1px, scroll-triggered animations"
+    },
+    "bestFor": [
+      "Brand storytelling",
+      "product launches",
+      "case studies",
+      "portfolios",
+      "annual reports",
+      "marketing campaigns"
+    ],
+    "avoidFor": [
+      "E-commerce",
+      "dashboards",
+      "mobile-first",
+      "SEO-critical",
+      "accessibility-required"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "❌ Poor",
+      "accessibility": "❌ Poor (motion)",
+      "mobile": "✗ Low",
+      "complexity": "High"
+    },
+    "cssKeywords": "position: fixed/sticky, transform: translateY(calc()), perspective: 1px, z-index layering, scroll-snap-type, Intersection Observer for triggers, will-change: transform",
+    "designVars": {
+      "--parallax-speed-bg": "0.3",
+      "--parallax-speed-mid": "0.6",
+      "--parallax-speed-fg": "1",
+      "--section-height": "100vh",
+      "--transition-duration": "600ms",
+      "--perspective": "1px"
+    },
+    "checklist": [
+      "Layers parallax smoothly",
+      "Story flows naturally",
+      "Mobile alternative provided",
+      "Performance optimized",
+      "Skip option available",
+      "Reduced motion fallback",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Parallax' house style. Design a parallax storytelling page. Use: scroll-driven narrative, layered backgrounds (3-5 layers), fixed/sticky sections, cinematic transitions, progressive disclosure, full-screen chapters, depth perception.",
+    "provenance": {
+      "sourceStyle": "Parallax Storytelling",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Seasonal",
+    "colorScheme": {
+      "id": "winter-chill",
+      "name": "Winter Chill",
+      "mode": "dark"
+    },
+    "roles": {
+      "bg": "#101418",
+      "surface": "#1D242B",
+      "text": "#E1E6EA",
+      "muted": "#8999A9",
+      "accent": "#69B0D3",
+      "onAccent": "#000000",
+      "border": "#596F85"
+    },
+    "contrast": {
+      "text/bg": 14.72,
+      "text/surface": 12.47,
+      "muted/bg": 6.34,
+      "muted/surface": 5.37,
+      "accent/bg": 7.71,
+      "accent/surface": 6.53,
+      "onAccent/accent": 8.75,
+      "border/bg": 3.56,
+      "border/surface": 3.01
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "pillow": {
+    "name": "Pillow",
+    "slug": "pillow",
+    "category": "Soft & Tactile",
+    "vibe": [
+      "Soft UI",
+      "embossed",
+      "debossed",
+      "convex",
+      "concave",
+      "light source",
+      "subtle depth",
+      "rounded (12-16px)"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#C8E0F4",
+        "#F5E0E8",
+        "#E8E8E8"
+      ],
+      "primary_raw": "Light pastels: Soft Blue #C8E0F4, Soft Pink #F5E0E8, Soft Grey #E8E8E8",
+      "secondary_raw": "Tints/shades (±30%), gradient subtlety, color harmony"
+    },
+    "motion": {
+      "effects": "Soft box-shadow (multiple: -5px -5px 15px, 5px 5px 15px), smooth press (150ms), inner subtle shadow"
+    },
+    "bestFor": [
+      "Health/wellness apps",
+      "meditation platforms",
+      "fitness trackers",
+      "minimal interaction UIs"
+    ],
+    "avoidFor": [
+      "Complex apps",
+      "critical accessibility",
+      "data-heavy dashboards",
+      "high-contrast required"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "◐ Partial"
+    },
+    "grades": {
+      "performance": "⚡ Good",
+      "accessibility": "⚠ Low contrast",
+      "mobile": "✓ Good",
+      "complexity": "Medium"
+    },
+    "cssKeywords": "border-radius: 12-16px, box-shadow: -5px -5px 15px rgba(0,0,0,0.1), 5px 5px 15px rgba(255,255,255,0.8), background: linear-gradient(145deg, color1, color2), transform: scale on press",
+    "designVars": {
+      "--border-radius": "14px",
+      "--shadow-soft-1": "-5px -5px 15px",
+      "--shadow-soft-2": "5px 5px 15px",
+      "--color-light": "#F5F5F5",
+      "--color-primary": "single pastel"
+    },
+    "checklist": [
+      "Rounded corners 12-16px consistent",
+      "Multiple shadow layers (2-3)",
+      "Pastel color verified",
+      "Monochromatic palette checked",
+      "Press animation smooth 150ms",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Pillow' house style. Create a neumorphic UI with soft 3D effects. Use light pastels, rounded corners (12-16px), subtle soft shadows (multiple layers), no hard lines, monochromatic color scheme with light/dark variations. Embossed/debossed effect on interactive elements.",
+    "provenance": {
+      "sourceStyle": "Neumorphism",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Romantic",
+    "colorScheme": {
+      "id": "blush-letter",
+      "name": "Blush Letter",
+      "mode": "light"
+    },
+    "roles": {
+      "bg": "#F9F5F6",
+      "surface": "#F0E6E7",
+      "text": "#40262B",
+      "muted": "#8A5C63",
+      "accent": "#C2295C",
+      "onAccent": "#FFFFFF",
+      "border": "#AD767F"
+    },
+    "contrast": {
+      "text/bg": 12.69,
+      "text/surface": 11.23,
+      "muted/bg": 5.12,
+      "muted/surface": 4.53,
+      "accent/bg": 5.16,
+      "accent/surface": 4.56,
+      "onAccent/accent": 5.58,
+      "border/bg": 3.42,
+      "border/surface": 3.03
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "putty": {
+    "name": "Putty",
+    "slug": "putty",
+    "category": "Soft & Tactile",
+    "vibe": [
+      "Jelly buttons",
+      "chrome",
+      "clay",
+      "squishy",
+      "deformable",
+      "bouncy",
+      "physical",
+      "tactile feedback"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#C0C0C0",
+        "#FF9ECD",
+        "#87CEEB"
+      ],
+      "primary_raw": "Gradient metallics, Chrome Silver #C0C0C0, Jelly Pink #FF9ECD, Soft Blue #87CEEB",
+      "secondary_raw": "Glossy highlights, shadow depth, reflection effects, material-specific colors"
+    },
+    "motion": {
+      "effects": "Press deformation (scale + squish), bounce-back (cubic-bezier), material response, haptic-like feedback, spring physics"
+    },
+    "bestFor": [
+      "Modern mobile apps",
+      "playful brands",
+      "entertainment",
+      "gaming UI",
+      "consumer products",
+      "interactive demos"
+    ],
+    "avoidFor": [
+      "Enterprise software",
+      "data dashboards",
+      "accessibility-critical",
+      "professional tools"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚠ Good",
+      "accessibility": "⚠ Motion sensitive",
+      "mobile": "✓ High",
+      "complexity": "Medium"
+    },
+    "cssKeywords": "transform: scale(0.95) on active, animation: bounce (cubic-bezier(0.34, 1.56, 0.64, 1)), box-shadow: inset for press, filter: brightness on press, spring physics (react-spring/framer-motion)",
+    "designVars": {
+      "--press-scale": "0.95",
+      "--bounce-duration": "400ms",
+      "--spring-stiffness": "300",
+      "--spring-damping": "20",
+      "--material-glossy": "linear-gradient(135deg, white 0%, transparent 60%)",
+      "--depth-shadow": "0 10px 30px rgba(0,0,0,0.2)"
+    },
+    "checklist": [
+      "Press effect visible",
+      "Bounce-back smooth",
+      "Material feels tactile",
+      "Spring physics tuned",
+      "Mobile touch responsive",
+      "Reduced motion option",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Putty' house style. Design a tactile deformable interface. Use: jelly/squishy buttons, press deformation effect, bounce-back animations, chrome/clay materials, spring physics, haptic-like feedback, material response, 3D depth on interaction.",
+    "provenance": {
+      "sourceStyle": "Tactile Digital / Deformable UI",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Monochromatic",
+    "colorScheme": {
+      "id": "slate-column",
+      "name": "Slate Column",
+      "mode": "light"
+    },
+    "roles": {
+      "bg": "#F6F7F8",
+      "surface": "#E8EAEE",
+      "text": "#2B323B",
+      "muted": "#5D6B7E",
+      "accent": "#356BB6",
+      "onAccent": "#FFFFFF",
+      "border": "#79879C"
+    },
+    "contrast": {
+      "text/bg": 12.07,
+      "text/surface": 10.75,
+      "muted/bg": 5.06,
+      "muted/surface": 4.51,
+      "accent/bg": 4.98,
+      "accent/surface": 4.44,
+      "onAccent/accent": 5.34,
+      "border/bg": 3.4,
+      "border/surface": 3.03
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "rawcut": {
+    "name": "Rawcut",
+    "slug": "rawcut",
+    "category": "Bold & Raw",
+    "vibe": [
+      "Hand-drawn",
+      "collage",
+      "scanned textures",
+      "unfinished",
+      "imperfect",
+      "authentic",
+      "human",
+      "sketch"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#FAFAF8",
+        "#4A4A4A",
+        "#1A1A1A",
+        "#C4A77D"
+      ],
+      "primary_raw": "Paper White #FAFAF8, Pencil Grey #4A4A4A, Marker Black #1A1A1A, Kraft Brown #C4A77D",
+      "secondary_raw": "Watercolor washes, pencil shading, ink splatters, tape textures, aged paper tones"
+    },
+    "motion": {
+      "effects": "No smooth transitions, hand-drawn animations, paper texture overlays, jitter effects, sketch reveal"
+    },
+    "bestFor": [
+      "Creative portfolios",
+      "artist sites",
+      "indie brands",
+      "handmade products",
+      "authentic storytelling",
+      "editorial"
+    ],
+    "avoidFor": [
+      "Corporate enterprise",
+      "fintech",
+      "healthcare",
+      "government",
+      "polished SaaS"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚡ Excellent",
+      "accessibility": "✓ WCAG AA",
+      "mobile": "✓ High",
+      "complexity": "Low"
+    },
+    "cssKeywords": "background: url(paper-texture.png), filter: grayscale() contrast(), border: hand-drawn SVG, transform: rotate(small random), no smooth transitions, sketch-style fonts, opacity variations",
+    "designVars": {
+      "--paper-bg": "#FAFAF8",
+      "--pencil-color": "#4A4A4A",
+      "--marker-black": "#1A1A1A",
+      "--kraft-brown": "#C4A77D",
+      "--sketch-rotation": "random(-3deg, 3deg)",
+      "--texture-opacity": "0.3"
+    },
+    "checklist": [
+      "Textures loaded",
+      "Hand-drawn elements present",
+      "Imperfections intentional",
+      "Authentic feel achieved",
+      "Performance ok with textures",
+      "Accessibility maintained",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Rawcut' house style. Design with anti-polish raw aesthetic. Use: hand-drawn elements, scanned textures, unfinished look, paper/pencil textures, collage style, authentic imperfection, sketch marks, tape/sticker overlays, human touch.",
+    "provenance": {
+      "sourceStyle": "Anti-Polish / Raw Aesthetic",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Neutral",
+    "colorScheme": {
+      "id": "gothic-noir",
+      "name": "Gothic Noir",
+      "mode": "dark"
+    },
+    "roles": {
+      "bg": "#141414",
+      "surface": "#242424",
+      "text": "#E6E6E6",
+      "muted": "#999999",
+      "accent": "#9E9E9E",
+      "onAccent": "#000000",
+      "border": "#6D6D6D"
+    },
+    "contrast": {
+      "text/bg": 14.76,
+      "text/surface": 12.44,
+      "muted/bg": 6.47,
+      "muted/surface": 5.45,
+      "accent/bg": 6.88,
+      "accent/surface": 5.79,
+      "onAccent/accent": 7.84,
+      "border/bg": 3.56,
+      "border/surface": 3
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "recon": {
+    "name": "Recon",
+    "slug": "recon",
+    "category": "Neon & Night",
+    "vibe": [
+      "Futuristic",
+      "technical",
+      "wireframe",
+      "neon",
+      "data",
+      "transparency",
+      "iron man",
+      "sci-fi"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#00FFFF",
+        "#0080FF",
+        "#FF0000",
+        "#333333"
+      ],
+      "primary_raw": "Neon Cyan #00FFFF, Holographic Blue #0080FF, Alert Red #FF0000",
+      "secondary_raw": "Transparent Black, Grid Lines #333333"
+    },
+    "motion": {
+      "effects": "Glow effects, scanning animations, ticker text, blinking markers, fine line drawing"
+    },
+    "bestFor": [
+      "Sci-fi games",
+      "space tech",
+      "cybersecurity",
+      "movie props",
+      "immersive dashboards"
+    ],
+    "avoidFor": [
+      "Standard corporate",
+      "reading heavy content",
+      "accessible public services"
+    ],
+    "modes": {
+      "light": "✓ Low",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚠ Moderate (renders)",
+      "accessibility": "⚠ Poor (thin lines)",
+      "mobile": "◐ Medium",
+      "complexity": "High"
+    },
+    "cssKeywords": "border: 1px solid rgba(0,255,255,0.5), color: #00FFFF, background: transparent or rgba(0,0,0,0.8), font-family: monospace, text-shadow: 0 0 5px cyan",
+    "designVars": {
+      "--hud-color": "#00FFFF",
+      "--bg-color": "rgba(0,10,20,0.9)",
+      "--line-width": "1px",
+      "--glow": "0 0 5px",
+      "--font": "monospace"
+    },
+    "checklist": [
+      "Fine lines 1px",
+      "Neon glow text/borders",
+      "Monospaced font",
+      "Dark/Transparent BG",
+      "Decorative tech markers",
+      "Holographic feel",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Recon' house style. Design a futuristic HUD (Heads Up Display) or FUI. Use: thin lines (1px), neon cyan/blue on black, technical markers, decorative brackets, data visualization, monospaced tech fonts, glowing elements, transparency.",
+    "provenance": {
+      "sourceStyle": "HUD / Sci-Fi FUI",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Vibrant",
+    "colorScheme": {
+      "id": "cobalt-flash",
+      "name": "Cobalt Flash",
+      "mode": "dark"
+    },
+    "roles": {
+      "bg": "#101319",
+      "surface": "#1C212C",
+      "text": "#E1E4EA",
+      "muted": "#8994A9",
+      "accent": "#429EFA",
+      "onAccent": "#000000",
+      "border": "#5A6B8D"
+    },
+    "contrast": {
+      "text/bg": 14.6,
+      "text/surface": 12.65,
+      "muted/bg": 6.09,
+      "muted/surface": 5.27,
+      "accent/bg": 6.64,
+      "accent/surface": 5.76,
+      "onAccent/accent": 7.5,
+      "border/bg": 3.47,
+      "border/surface": 3.01
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "relief": {
+    "name": "Relief",
+    "slug": "relief",
+    "category": "Depth & Spatial",
+    "vibe": [
+      "Depth",
+      "realistic textures",
+      "3D models",
+      "spatial navigation",
+      "tactile",
+      "skeuomorphic elements",
+      "rich detail",
+      "immersive"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#001F3F",
+        "#228B22",
+        "#800020",
+        "#FFD700",
+        "#C0C0C0"
+      ],
+      "primary_raw": "Deep Navy #001F3F, Forest Green #228B22, Burgundy #800020, Gold #FFD700, Silver #C0C0C0",
+      "secondary_raw": "Complex gradients (5-10 stops), realistic lighting, shadow variations (20-40% darker)"
+    },
+    "motion": {
+      "effects": "WebGL/Three.js 3D, realistic shadows (layers), physics lighting, parallax (3-5 layers), smooth 3D (300-400ms)"
+    },
+    "bestFor": [
+      "Gaming",
+      "product showcase",
+      "immersive experiences",
+      "high-end e-commerce",
+      "architectural viz",
+      "VR/AR"
+    ],
+    "avoidFor": [
+      "Low-end mobile",
+      "performance-limited",
+      "critical accessibility",
+      "data tables/forms"
+    ],
+    "modes": {
+      "light": "◐ Partial",
+      "dark": "◐ Partial"
+    },
+    "grades": {
+      "performance": "❌ Poor",
+      "accessibility": "⚠ Not accessible",
+      "mobile": "✗ Low",
+      "complexity": "High"
+    },
+    "cssKeywords": "transform: translate3d, perspective: 1000px, WebGL canvas, Three.js/Babylon.js library, box-shadow: complex multi-layer, background: complex gradients, filter: drop-shadow()",
+    "designVars": {
+      "--perspective": "1000px",
+      "--parallax-layers": "5",
+      "--lighting-intensity": "realistic",
+      "--shadow-depth": "20-40%",
+      "--animation-duration": "300-400ms"
+    },
+    "checklist": [
+      "WebGL/Three.js integrated",
+      "3D models loaded",
+      "Parallax 3-5 layers",
+      "Realistic lighting verified",
+      "Complex shadows rendered",
+      "Physics animation smooth 300-400ms",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Relief' house style. Build an immersive 3D interface using realistic textures, 3D models (Three.js/Babylon.js), complex shadows, realistic lighting, parallax scrolling (3-5 layers), physics-based motion. Include skeuomorphic elements with tactile detail.",
+    "provenance": {
+      "sourceStyle": "3D & Hyperrealism",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Playful",
+    "colorScheme": {
+      "id": "mango",
+      "name": "Mango",
+      "mode": "light"
+    },
+    "roles": {
+      "bg": "#FAF8F5",
+      "surface": "#F1ECE4",
+      "text": "#403526",
+      "muted": "#7A6951",
+      "accent": "#D66A0B",
+      "onAccent": "#000000",
+      "border": "#9F845F"
+    },
+    "contrast": {
+      "text/bg": 11.29,
+      "text/surface": 10.17,
+      "muted/bg": 4.99,
+      "muted/surface": 4.5,
+      "accent/bg": 3.34,
+      "accent/surface": 3.01,
+      "onAccent/accent": 5.93,
+      "border/bg": 3.34,
+      "border/surface": 3.01
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "riot": {
+    "name": "Riot",
+    "slug": "riot",
+    "category": "Bold & Raw",
+    "vibe": [
+      "Chaos",
+      "clutter",
+      "stickers",
+      "raw",
+      "collage",
+      "mixed media",
+      "loud",
+      "internet culture"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#FF00FF",
+        "#00FF00",
+        "#FFFF00",
+        "#0000FF"
+      ],
+      "primary_raw": "Clashing Brights: #FF00FF, #00FF00, #FFFF00, #0000FF",
+      "secondary_raw": "Gradients, rainbow, glitch, noise, heavily saturated mix"
+    },
+    "motion": {
+      "effects": "Marquee scrolls, jitter, sticker layering, GIF overload, random placement, drag-and-drop"
+    },
+    "bestFor": [
+      "Gen Z lifestyle brands",
+      "music artists",
+      "creative portfolios",
+      "viral marketing",
+      "fashion"
+    ],
+    "avoidFor": [
+      "Corporate",
+      "government",
+      "healthcare",
+      "banking",
+      "serious tools"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚠ Poor (heavy assets)",
+      "accessibility": "❌ Poor",
+      "mobile": "◐ Medium",
+      "complexity": "High"
+    },
+    "cssKeywords": "mix-blend-mode: multiply/screen, transform: rotate(random), animation: jitter, marquee text, position: absolute for scattered elements, filter: saturate(150%), z-index chaos",
+    "designVars": {
+      "--chaos-pink": "#FF00FF",
+      "--chaos-green": "#00FF00",
+      "--chaos-yellow": "#FFFF00",
+      "--chaos-blue": "#0000FF",
+      "--jitter-amount": "5deg",
+      "--saturate": "150%"
+    },
+    "checklist": [
+      "Colors clash intentionally",
+      "Stickers/overlays present",
+      "Layout chaotic but usable",
+      "GIFs optimized",
+      "Mobile scrollable",
+      "Performance acceptable",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Riot' house style. Design a Gen Z chaos maximalist interface. Use: clashing bright colors, sticker overlays, collage aesthetic, raw/unpolished feel, mixed media, ironic elements, loud typography, GIF-heavy, internet culture references.",
+    "provenance": {
+      "sourceStyle": "Gen Z Chaos / Maximalism",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Vibrant",
+    "colorScheme": {
+      "id": "electropop",
+      "name": "Electropop",
+      "mode": "dark"
+    },
+    "roles": {
+      "bg": "#191019",
+      "surface": "#2C1C2C",
+      "text": "#EAE1EA",
+      "muted": "#A989A9",
+      "accent": "#FA42CC",
+      "onAccent": "#000000",
+      "border": "#8C5A8C"
+    },
+    "contrast": {
+      "text/bg": 14.57,
+      "text/surface": 12.57,
+      "muted/bg": 6.05,
+      "muted/surface": 5.22,
+      "accent/bg": 5.95,
+      "accent/surface": 5.13,
+      "onAccent/accent": 6.72,
+      "border/bg": 3.5,
+      "border/surface": 3.02
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "slab": {
+    "name": "Slab",
+    "slug": "slab",
+    "category": "Bold & Raw",
+    "vibe": [
+      "Bold borders",
+      "black outlines",
+      "primary colors",
+      "thick shadows",
+      "no gradients",
+      "flat colors",
+      "45° shadows",
+      "playful"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#FFEB3B",
+        "#FF5252",
+        "#2196F3",
+        "#000000"
+      ],
+      "primary_raw": "#FFEB3B (Yellow), #FF5252 (Red), #2196F3 (Blue), #000000 (Black borders)",
+      "secondary_raw": "Limited accent colors, high contrast combinations, no gradients allowed"
+    },
+    "motion": {
+      "effects": "box-shadow: 4px 4px 0 #000, border: 3px solid #000, no gradients, sharp corners (0px), bold typography"
+    },
+    "bestFor": [
+      "Gen Z brands",
+      "startups",
+      "creative agencies",
+      "Figma-style apps",
+      "Notion-style interfaces",
+      "tech blogs"
+    ],
+    "avoidFor": [
+      "Luxury brands",
+      "finance",
+      "healthcare",
+      "conservative industries (too playful)"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚡ Excellent",
+      "accessibility": "✓ WCAG AAA",
+      "mobile": "✓ High",
+      "complexity": "Low"
+    },
+    "cssKeywords": "border: 3px solid black, box-shadow: 5px 5px 0px black, colors: #FFDB58 #FF6B6B #4ECDC4, font-weight: 700, no gradients",
+    "designVars": {
+      "--border-width": "3px",
+      "--shadow-offset": "4px",
+      "--shadow-color": "#000",
+      "--colors": "high saturation",
+      "--font": "bold sans"
+    },
+    "checklist": [
+      "Hard borders (2-4px)",
+      "Hard offset shadows",
+      "High saturation colors",
+      "Bold typography",
+      "No blurs/gradients",
+      "Distinctive 'ugly-cute' look",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Slab' house style. Design a neubrutalist interface. Use: high contrast, hard black borders (3px+), bright pop colors, no blur, sharp or slightly rounded corners, bold typography, hard shadows (offset 4px 4px), raw aesthetic but functional.",
+    "provenance": {
+      "sourceStyle": "Neubrutalism",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Vibrant",
+    "colorScheme": {
+      "id": "hot-magenta",
+      "name": "Hot Magenta",
+      "mode": "light"
+    },
+    "roles": {
+      "bg": "#FAF5F8",
+      "surface": "#F1E4ED",
+      "text": "#402637",
+      "muted": "#875A78",
+      "accent": "#DF0C87",
+      "onAccent": "#FFFFFF",
+      "border": "#AB7398"
+    },
+    "contrast": {
+      "text/bg": 12.57,
+      "text/surface": 11,
+      "muted/bg": 5.18,
+      "muted/surface": 4.53,
+      "accent/bg": 4.29,
+      "accent/surface": 3.76,
+      "onAccent/accent": 4.63,
+      "border/bg": 3.46,
+      "border/surface": 3.03
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "splitshift": {
+    "name": "Splitshift",
+    "slug": "splitshift",
+    "category": "Neon & Night",
+    "vibe": [
+      "RGB split",
+      "color fringing",
+      "glitch",
+      "retro tech",
+      "VHS",
+      "analog error",
+      "distortion",
+      "lens effect"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#FF0000",
+        "#00FF00",
+        "#0000FF",
+        "#000000"
+      ],
+      "primary_raw": "Offset RGB: Red #FF0000, Green #00FF00, Blue #0000FF, Black #000000",
+      "secondary_raw": "Neon accents, scan lines, noise overlays, error colors"
+    },
+    "motion": {
+      "effects": "RGB offset animation, glitch timing, scan line movement, noise flicker, distortion on hover"
+    },
+    "bestFor": [
+      "Music platforms",
+      "gaming",
+      "tech brands",
+      "creative portfolios",
+      "nightlife",
+      "entertainment",
+      "video platforms"
+    ],
+    "avoidFor": [
+      "Corporate",
+      "healthcare",
+      "finance",
+      "accessibility-critical",
+      "elderly users"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Dark preferred"
+    },
+    "grades": {
+      "performance": "⚠ Good",
+      "accessibility": "⚠ Can cause strain",
+      "mobile": "◐ Medium",
+      "complexity": "Medium"
+    },
+    "cssKeywords": "filter: drop-shadow with offset colors, text-shadow: RGB offset (-2px 0 red, 2px 0 cyan), animation: glitch (random offset), ::before for scanlines, mix-blend-mode: screen for overlays",
+    "designVars": {
+      "--rgb-offset": "2px",
+      "--red-channel": "#FF0000",
+      "--green-channel": "#00FF00",
+      "--blue-channel": "#0000FF",
+      "--glitch-duration": "0.3s",
+      "--scanline-opacity": "0.1"
+    },
+    "checklist": [
+      "RGB split visible",
+      "Glitch effect controlled",
+      "Scan lines subtle",
+      "Performance ok",
+      "Readability maintained",
+      "Reduced motion option",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Splitshift' house style. Design with chromatic aberration RGB split effect. Use: color channel offset (R/G/B), glitch aesthetic, retro tech feel, VHS error look, lens distortion, scan lines, noise overlay, analog imperfection.",
+    "provenance": {
+      "sourceStyle": "Chromatic Aberration / RGB Split",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Vibrant",
+    "colorScheme": {
+      "id": "jewel-box",
+      "name": "Jewel Box",
+      "mode": "dark"
+    },
+    "roles": {
+      "bg": "#151019",
+      "surface": "#251C2C",
+      "text": "#E6E1EA",
+      "muted": "#9C89A9",
+      "accent": "#4CF0D5",
+      "onAccent": "#000000",
+      "border": "#7D5E93"
+    },
+    "contrast": {
+      "text/bg": 14.57,
+      "text/surface": 12.74,
+      "muted/bg": 5.86,
+      "muted/surface": 5.12,
+      "accent/bg": 13.15,
+      "accent/surface": 11.5,
+      "onAccent/accent": 14.73,
+      "border/bg": 3.48,
+      "border/surface": 3.04
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "strata": {
+    "name": "Strata",
+    "slug": "strata",
+    "category": "Glass & Aura",
+    "vibe": [
+      "Depth",
+      "overlapping",
+      "z-index",
+      "layers",
+      "3D",
+      "shadows",
+      "elevation",
+      "floating"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#FFFFFF",
+        "#F5F5F5",
+        "#E0E0E0"
+      ],
+      "primary_raw": "Neutral base (#FFFFFF, #F5F5F5, #E0E0E0) + brand accent for elevated elements",
+      "secondary_raw": "Shadow variations (sm/md/lg/xl), elevation colors, highlight colors for top layers"
+    },
+    "motion": {
+      "effects": "z-index stacking, box-shadow elevation (4 levels), transform: translateZ(), backdrop-filter, parallax"
+    },
+    "bestFor": [
+      "Dashboards",
+      "card layouts",
+      "modals",
+      "navigation",
+      "product showcases",
+      "SaaS interfaces"
+    ],
+    "avoidFor": [
+      "Print-style layouts",
+      "simple blogs",
+      "low-end devices",
+      "flat design requirements"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚠ Good",
+      "accessibility": "⚠ Moderate (SR issues)",
+      "mobile": "✓ Good",
+      "complexity": "Medium"
+    },
+    "cssKeywords": "z-index: 1-4 levels, box-shadow: elevation scale (sm/md/lg/xl), transform: translateZ(), backdrop-filter: blur(), position: relative for stacking, parallax on scroll",
+    "designVars": {
+      "--elevation-1": "0 1px 3px rgba(0,0,0,0.1)",
+      "--elevation-2": "0 4px 6px rgba(0,0,0,0.1)",
+      "--elevation-3": "0 10px 20px rgba(0,0,0,0.1)",
+      "--elevation-4": "0 20px 40px rgba(0,0,0,0.15)",
+      "--blur-amount": "8px"
+    },
+    "checklist": [
+      "Layers clearly defined",
+      "Shadows show depth",
+      "Overlaps intentional",
+      "Hierarchy clear",
+      "Performance optimized",
+      "Mobile depth maintained",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Strata' house style. Design with dimensional layering. Use: z-index depth (multiple layers), overlapping cards, elevation shadows (4 levels), floating elements, parallax depth, backdrop blur for hierarchy, spatial UI feel.",
+    "provenance": {
+      "sourceStyle": "Dimensional Layering",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Vibrant",
+    "colorScheme": {
+      "id": "cobalt-flash",
+      "name": "Cobalt Flash",
+      "mode": "dark"
+    },
+    "roles": {
+      "bg": "#101319",
+      "surface": "#1C212C",
+      "text": "#E1E4EA",
+      "muted": "#8994A9",
+      "accent": "#429EFA",
+      "onAccent": "#000000",
+      "border": "#5A6B8D"
+    },
+    "contrast": {
+      "text/bg": 14.6,
+      "text/surface": 12.65,
+      "muted/bg": 6.09,
+      "muted/surface": 5.27,
+      "accent/bg": 6.64,
+      "accent/surface": 5.76,
+      "onAccent/accent": 7.5,
+      "border/bg": 3.47,
+      "border/surface": 3.01
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "sunset-grid": {
+    "name": "Sunset Grid",
+    "slug": "sunset-grid",
+    "category": "Neon & Night",
+    "vibe": [
+      "Synthwave",
+      "retro-futuristic",
+      "80s-90s",
+      "neon",
+      "glitch",
+      "nostalgic",
+      "sunset gradient",
+      "dreamy"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#FF71CE",
+        "#01CDFE",
+        "#05FFA1",
+        "#B967FF"
+      ],
+      "primary_raw": "#FF71CE (Pink), #01CDFE (Cyan), #05FFA1 (Mint), #B967FF (Purple)",
+      "secondary_raw": "Sunset gradients, glitch overlays, VHS effects, neon accents, pastel variations"
+    },
+    "motion": {
+      "effects": "text-shadow glow, linear-gradient, filter: hue-rotate(), glitch animations, retro scan lines"
+    },
+    "bestFor": [
+      "Music platforms",
+      "gaming",
+      "creative portfolios",
+      "tech startups",
+      "entertainment",
+      "artistic projects"
+    ],
+    "avoidFor": [
+      "Business apps",
+      "e-commerce",
+      "education",
+      "healthcare",
+      "enterprise software"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Dark focused"
+    },
+    "grades": {
+      "performance": "⚠ Moderate",
+      "accessibility": "⚠ Poor (motion)",
+      "mobile": "◐ Medium",
+      "complexity": "Medium"
+    },
+    "cssKeywords": "background: linear-gradient(180deg, #FF71CE, #01CDFE, #B967FF), filter: hue-rotate(), text-shadow: neon glow, retro grid (perspective + linear-gradient), VHS scanlines",
+    "designVars": {
+      "--vapor-pink": "#FF71CE",
+      "--vapor-cyan": "#01CDFE",
+      "--vapor-mint": "#05FFA1",
+      "--vapor-purple": "#B967FF",
+      "--grid-color": "rgba(255,255,255,0.1)",
+      "--glow-intensity": "15px"
+    },
+    "checklist": [
+      "Sunset gradient present",
+      "Neon glow applied",
+      "Retro grid visible",
+      "Glitch effects subtle",
+      "Dreamy atmosphere",
+      "80s-90s aesthetic",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Sunset Grid' house style. Design a vaporwave aesthetic interface. Use: sunset gradients (pink/cyan/purple), 80s-90s nostalgia, glitch effects, Greek statue imagery, palm trees, grid patterns, neon glow, retro-futuristic feel, dreamy atmosphere.",
+    "provenance": {
+      "sourceStyle": "Vaporwave",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Vibrant",
+    "colorScheme": {
+      "id": "electropop",
+      "name": "Electropop",
+      "mode": "dark"
+    },
+    "roles": {
+      "bg": "#191019",
+      "surface": "#2C1C2C",
+      "text": "#EAE1EA",
+      "muted": "#A989A9",
+      "accent": "#FA42CC",
+      "onAccent": "#000000",
+      "border": "#8C5A8C"
+    },
+    "contrast": {
+      "text/bg": 14.57,
+      "text/surface": 12.57,
+      "muted/bg": 6.05,
+      "muted/surface": 5.22,
+      "accent/bg": 5.95,
+      "accent/surface": 5.13,
+      "onAccent/accent": 6.72,
+      "border/bg": 3.5,
+      "border/surface": 3.02
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "synapse": {
+    "name": "Synapse",
+    "slug": "synapse",
+    "category": "Depth & Spatial",
+    "vibe": [
+      "Chatbot",
+      "conversational",
+      "voice",
+      "assistant",
+      "agentic",
+      "ambient",
+      "minimal chrome",
+      "streaming text"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#6366F1",
+        "#10B981",
+        "#F5F5F5"
+      ],
+      "primary_raw": "Neutral + single accent, #6366F1 (AI Purple), #10B981 (Success), #F5F5F5 (Background)",
+      "secondary_raw": "Status indicators, streaming highlights, context card colors, subtle accent variations"
+    },
+    "motion": {
+      "effects": "Typing indicators (3-dot pulse), streaming text animations, pulse animations, context cards, smooth reveals"
+    },
+    "bestFor": [
+      "AI products",
+      "chatbots",
+      "voice assistants",
+      "copilots",
+      "AI-powered tools",
+      "conversational interfaces"
+    ],
+    "avoidFor": [
+      "Traditional forms",
+      "data-heavy dashboards",
+      "print-first content"
+    ],
+    "modes": {
+      "light": "✓ Full",
+      "dark": "✓ Full"
+    },
+    "grades": {
+      "performance": "⚡ Excellent",
+      "accessibility": "✓ WCAG AA",
+      "mobile": "✓ High",
+      "complexity": "Low"
+    },
+    "cssKeywords": "chat bubble layout (flex-direction: column), typing animation (3 dots pulse), streaming text (overflow: hidden + animation), input: sticky bottom, context cards (border-left accent), minimal borders",
+    "designVars": {
+      "--ai-accent": "#6366F1",
+      "--user-bubble-bg": "#E0E7FF",
+      "--ai-bubble-bg": "#F9FAFB",
+      "--input-height": "48px",
+      "--typing-dot-size": "8px",
+      "--message-gap": "16px"
+    },
+    "checklist": [
+      "Chat layout responsive",
+      "Typing indicator smooth",
+      "Input always visible",
+      "Context cards styled",
+      "AI responses distinct",
+      "User messages aligned right",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Synapse' house style. Design an AI-native interface. Use: minimal chrome, conversational layout, streaming text area, typing indicators (3-dot pulse), context cards, subtle AI accent color (#6366F1), clean input field, response bubbles.",
+    "provenance": {
+      "sourceStyle": "AI-Native UI",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Vibrant",
+    "colorScheme": {
+      "id": "cobalt-flash",
+      "name": "Cobalt Flash",
+      "mode": "dark"
+    },
+    "roles": {
+      "bg": "#101319",
+      "surface": "#1C212C",
+      "text": "#E1E4EA",
+      "muted": "#8994A9",
+      "accent": "#429EFA",
+      "onAccent": "#000000",
+      "border": "#5A6B8D"
+    },
+    "contrast": {
+      "text/bg": 14.6,
+      "text/surface": 12.65,
+      "muted/bg": 6.09,
+      "muted/surface": 5.27,
+      "accent/bg": 6.64,
+      "accent/surface": 5.76,
+      "onAccent/accent": 7.5,
+      "border/bg": 3.47,
+      "border/surface": 3.01
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  },
+  "void": {
+    "name": "Void",
+    "slug": "void",
+    "category": "Neon & Night",
+    "vibe": [
+      "Dark theme",
+      "low light",
+      "high contrast",
+      "deep black",
+      "midnight blue",
+      "eye-friendly",
+      "OLED",
+      "night mode"
+    ],
+    "colors": {
+      "palette_hexes": [
+        "#000000",
+        "#121212",
+        "#0A0E27",
+        "#39FF14",
+        "#0080FF",
+        "#FFD700",
+        "#BF00FF"
+      ],
+      "primary_raw": "Deep Black #000000, Dark Grey #121212, Midnight Blue #0A0E27",
+      "secondary_raw": "Vibrant accents: Neon Green #39FF14, Electric Blue #0080FF, Gold #FFD700, Plasma Purple #BF00FF"
+    },
+    "motion": {
+      "effects": "Minimal glow (text-shadow: 0 0 10px), dark-to-light transitions, low white emission, high readability, visible focus"
+    },
+    "bestFor": [
+      "Night-mode apps",
+      "coding platforms",
+      "entertainment",
+      "eye-strain prevention",
+      "OLED devices",
+      "low-light"
+    ],
+    "avoidFor": [
+      "Print-first content",
+      "high-brightness outdoor",
+      "color-accuracy-critical"
+    ],
+    "modes": {
+      "light": "✗ No",
+      "dark": "✓ Only"
+    },
+    "grades": {
+      "performance": "⚡ Excellent",
+      "accessibility": "✓ WCAG AAA",
+      "mobile": "✓ High",
+      "complexity": "Low"
+    },
+    "cssKeywords": "background: #000000 or #121212, color: #FFFFFF or #E0E0E0, text-shadow: 0 0 10px neon-color (sparingly), filter: brightness(0.8) if needed, color-scheme: dark",
+    "designVars": {
+      "--bg-black": "#000000",
+      "--bg-dark-grey": "#121212",
+      "--text-primary": "#FFFFFF",
+      "--accent-neon": "neon colors",
+      "--glow-effect": "minimal",
+      "--oled-optimized": "true"
+    },
+    "checklist": [
+      "Deep black #000000 or #121212",
+      "Vibrant neon accents used",
+      "Text contrast 7:1+",
+      "Minimal glow effects",
+      "OLED power optimization",
+      "No white (#FFFFFF) background",
+      "CTA labels clear 4.5:1 against the accent fill",
+      "Body and muted text clear 4.5:1 on background and surface",
+      "Accent, borders, icons, and focus rings clear 3:1 on background and surface"
+    ],
+    "promptSeed": "Build in the 'Void' house style. Create an OLED-optimized dark interface with deep black (#000000), dark grey (#121212), midnight blue accents. Use minimal glow effects, vibrant neon accents (green, blue, gold, purple), high contrast text. Optimize for eye comfort and OLED power saving.",
+    "provenance": {
+      "sourceStyle": "Dark Mode (OLED)",
+      "sourceSkill": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT"
+    },
+    "mood": "Vibrant",
+    "colorScheme": {
+      "id": "neon-jungle",
+      "name": "Neon Jungle",
+      "mode": "dark"
+    },
+    "roles": {
+      "bg": "#101916",
+      "surface": "#1C2C26",
+      "text": "#E1EAE7",
+      "muted": "#89A99E",
+      "accent": "#42FA7F",
+      "onAccent": "#000000",
+      "border": "#4E7A6B"
+    },
+    "contrast": {
+      "text/bg": 14.6,
+      "text/surface": 11.91,
+      "muted/bg": 7.02,
+      "muted/surface": 5.73,
+      "accent/bg": 12.97,
+      "accent/surface": 10.58,
+      "onAccent/accent": 15.21,
+      "border/bg": 3.68,
+      "border/surface": 3
+    },
+    "contrastValid": true,
+    "colorUsage": {
+      "dominant": 60,
+      "secondary": 30,
+      "accent": 10
+    }
+  }
+}

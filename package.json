@@ -1,0 +1,26 @@
+{
+  "name": "unsloppable",
+  "version": "0.1.0",
+  "description": "React components that do not look like everything else.",
+  "license": "MIT",
+  "homepage": "https://unsloppable.style/library",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtfgalang/unsloppable.git"
+  },
+  "scripts": {
+    "build:registry": "node scripts/build-registry.mjs"
+  },
+  "peerDependencies": {
+    "react": ">=19",
+    "react-dom": ">=19",
+    "clsx": "^2",
+    "tailwind-merge": "^3",
+    "motion": "^12"
+  },
+  "peerDependenciesMeta": {
+    "motion": {
+      "optional": true
+    }
+  }
+}
