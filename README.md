@@ -48,6 +48,31 @@ demo you can poke at, the full prop table, and the reasoning for why it behaves
 the way it does. Start at
 **[unsloppable.style/library](https://unsloppable.style/library)**.
 
+## Styles
+
+There is nothing to import. A component ships its own stylesheet next to itself
+and imports it, and pulls in `open-ui-base.css` for the handful of tokens the
+whole library reads. Install three components and you get three small
+stylesheets and one copy of the base, not three copies of everything.
+
+Retint the set by overriding the tokens anywhere after the import:
+
+```css
+:root {
+  --oui-ink: #0b0b0c;
+  --oui-paper: #f6f4ee;
+  --oui-acid: #ff5c1a;
+}
+```
+
+If you are on the Next.js Pages Router, global CSS can only be imported from
+`_app.tsx`. Move the two import lines out of the component and into that file.
+
+Reading this repository rather than installing? Every rule lives in one place,
+`src/open-ui.css`. The per-component stylesheets are cut from it by
+`npm run build:registry`, which also writes the registry into `r/` if you want
+to host your own.
+
 ## Working with a coding agent
 
 Point your agent at the registry and it can find and install components without
